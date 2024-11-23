@@ -1,5 +1,11 @@
 # VoiceRenameDetectorFromDump
 
+## This info is outdated
+
+The input file is now a custom file format containing only the relevant info, because xEdit dumps aren't a guaranteed stable format.
+
+**Everything from here on is old**
+
 This tool will parse a pair of xEdit dump files and attempt to match the corresponding INFO records from the two files.
 
 This is to serve as the basis for a tool that will be able to take a set of original voice file paths from Oblivion and determine the correct voice file path for the corresponding voice file for the same dialogue in Skyrim, for the purposes of Skyblivion.

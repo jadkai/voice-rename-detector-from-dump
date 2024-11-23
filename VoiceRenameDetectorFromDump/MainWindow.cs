@@ -33,7 +33,16 @@ namespace VoiceRenameDetectorFromDump
               var text2 = secondResponse.ResponseText;
 
               var answer = MessageBox.Show(
-                $"Are these responses the same?\n\n{text1}\n\n{text2}\n\nLevenshtein distance: {distance}",
+                $"Are these responses the same?\n\n" +
+                $"INFO form ID: {firstResponse.InfoFormId}\n" +
+                $"DIAL editor ID: {firstResponse.TopicEditorId}\n" +
+                $"QUST editor ID: {firstResponse.QuestEditorId}\n\n" +
+                $"{text1}\n\n" +
+                $"INFO form ID: {secondResponse.InfoFormId}\n" +
+                $"DIAL editor ID: {secondResponse.TopicEditorId}\n" +
+                $"QUST editor ID: {secondResponse.QuestEditorId}\n\n" +
+                $"{text2}\n\n" +
+                $"Levenshtein distance: {distance}",
                 "Same responses?",
                 MessageBoxButtons.YesNo);
 
