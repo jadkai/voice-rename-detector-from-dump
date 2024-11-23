@@ -35,5 +35,13 @@ namespace VoiceRenameDetectorFromDump
 
       ResponsesByText[response.ResponseText] = byTextResponses;
     }
+
+    public void AddResponses(IEnumerable<Response> responses)
+    {
+      foreach (Response response in responses)
+      {
+        AddResponse(response);
+      }
+    }
   }
 }

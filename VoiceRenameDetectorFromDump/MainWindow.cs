@@ -27,30 +27,41 @@ namespace VoiceRenameDetectorFromDump
 
             var mergedFile = MergedFile.CreateFromDumpFiles(firstFile, secondFile);
 
-            foreach (var (firstResponse, secondResponse, distance) in mergedFile.MaybeEqualResponses)
+            if (mergedFile.MaybeEqualResponses.Count > 0)
             {
-              var text1 = firstResponse.ResponseText;
-              var text2 = secondResponse.ResponseText;
-
-              var answer = MessageBox.Show(
-                $"Are these responses the same?\n\n" +
-                $"INFO form ID: {firstResponse.InfoFormId}\n" +
-                $"DIAL editor ID: {firstResponse.TopicEditorId}\n" +
-                $"QUST editor ID: {firstResponse.QuestEditorId}\n\n" +
-                $"{text1}\n\n" +
-                $"INFO form ID: {secondResponse.InfoFormId}\n" +
-                $"DIAL editor ID: {secondResponse.TopicEditorId}\n" +
-                $"QUST editor ID: {secondResponse.QuestEditorId}\n\n" +
-                $"{text2}\n\n" +
-                $"Levenshtein distance: {distance}",
-                "Same responses?",
+              var resolveMaybesAnswer = MessageBox.Show(
+                "Do you want to try to resolve responses that may be equal?",
+                "Resolve maybes?",
                 MessageBoxButtons.YesNo);
 
-              if (answer == DialogResult.Yes)
+              if (resolveMaybesAnswer == DialogResult.Yes)
               {
-                mergedFile.EqualResponses.Add((firstResponse, secondResponse));
-                mergedFile.UnmatchedFromFirst.Remove(firstResponse);
-                mergedFile.UnmatchedFromSecond.Remove(secondResponse);
+                foreach (var (firstResponse, secondResponse, distance) in mergedFile.MaybeEqualResponses)
+                {
+                  var text1 = firstResponse.ResponseText;
+                  var text2 = secondResponse.ResponseText;
+
+                  var answer = MessageBox.Show(
+                    $"Are these responses the same?\n\n" +
+                    $"INFO form ID: {firstResponse.InfoFormId}\n" +
+                    $"DIAL editor ID: {firstResponse.TopicEditorId}\n" +
+                    $"QUST editor ID: {firstResponse.QuestEditorId}\n\n" +
+                    $"{text1}\n\n" +
+                    $"INFO form ID: {secondResponse.InfoFormId}\n" +
+                    $"DIAL editor ID: {secondResponse.TopicEditorId}\n" +
+                    $"QUST editor ID: {secondResponse.QuestEditorId}\n\n" +
+                    $"{text2}\n\n" +
+                    $"Levenshtein distance: {distance}",
+                    "Same responses?",
+                    MessageBoxButtons.YesNo);
+
+                  if (answer == DialogResult.Yes)
+                  {
+                    mergedFile.EqualResponses.Add((firstResponse, secondResponse));
+                    mergedFile.UnmatchedFromFirst.Remove(firstResponse);
+                    mergedFile.UnmatchedFromSecond.Remove(secondResponse);
+                  }
+                }
               }
             }
 
@@ -124,25 +135,6 @@ namespace VoiceRenameDetectorFromDump
           {
             MessageBox.Show(ex.ToString());
           }
-
-          //try
-          //{
-          //  var dialDumpFile = DialDumpParser.Parse(openFileDialog.FileName);
-
-          //  foreach (var response in dialDumpFile.Responses)
-          //  {
-          //    var lvi = new ListViewItem(response.QuestEditorId);
-          //    lvi.SubItems.Add(response.ResponseNumber.ToString());
-          //    lvi.SubItems.Add(response.InfoFormId);
-          //    lvi.SubItems.Add(response.ResponseText);
-
-          //    listView1.Items.Add(lvi);
-          //  }
-          //}
-          //catch (Exception ex)
-          //{
-          //  MessageBox.Show(ex.ToString());
-          //}
         }
       }
     }

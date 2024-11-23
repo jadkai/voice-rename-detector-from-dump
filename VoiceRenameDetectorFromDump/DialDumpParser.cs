@@ -39,7 +39,7 @@ namespace VoiceRenameDetectorFromDump
     /// "[QUST" or the editor ID of the QUST in quotes followed by that.
     /// </summary>
     private static readonly Regex qustRegex = new Regex(
-      @"in (\""[^\""]*\"" )?\[QUST",
+      @"(\""[^\""]*\"" )?\[QUST",
       RegexOptions.Singleline);
 
     /// <summary>
@@ -74,46 +74,41 @@ namespace VoiceRenameDetectorFromDump
 
       foreach (var infoGroup in infoGroups)
       {
-        int responsesInGroup = 0;
         var (infoFormId, topicEditorId, questEditorId) = ParseInfoHeader(infoGroup[0]);
 
-        for (int i = 1; i < infoGroup.Length; ++i)
-        {
-          var line = infoGroup[i];
-          var trimmedLine = line.TrimStart();
-
-          if (string.IsNullOrEmpty(trimmedLine))
+        var responses = infoGroup
+          .Skip(1) // first line in group is the header
+          .Select(line => line.TrimStart())
+          .Where(line => !string.IsNullOrEmpty(line)) // skip blank lines
+          .Select(responseLine =>
           {
-            // blank line or only whitespace
-            continue;
-          }
+            if (!responseLineRegex.IsMatch(responseLine))
+            {
+              throw new Exception($"Unexpected format in response line: {responseLine}");
+            }
 
-          if (!responseLineRegex.IsMatch(trimmedLine))
-          {
-            throw new Exception($"Unexpected format in response line: {trimmedLine}");
-          }
+            int firstQuoteIndex = responseLine.IndexOf('"');
+            int lastQuoteIndex = responseLine.LastIndexOf('"');
+            var responseText = responseLine[(firstQuoteIndex + 1)..lastQuoteIndex];
+            var responseNumber = int.Parse(responseLine[0..responseLine.IndexOf(':')]);
 
-          int firstQuoteIndex = trimmedLine.IndexOf('"');
-          int lastQuoteIndex = trimmedLine.LastIndexOf('"');
-          var responseText = trimmedLine[(firstQuoteIndex + 1)..lastQuoteIndex];
-          var responseNumber = int.Parse(trimmedLine[0..trimmedLine.IndexOf(':')]);
+            return new Response
+            {
+              ResponseNumber = responseNumber,
+              InfoFormId = infoFormId,
+              QuestEditorId = questEditorId,
+              ResponseText = responseText,
+              TopicEditorId = topicEditorId,
+            };
+          })
+          .ToList(); // going to enumerate more than once
 
-          dialDumpFile.AddResponse(new Response
-          {
-            ResponseNumber = responseNumber,
-            InfoFormId = infoFormId,
-            QuestEditorId = questEditorId,
-            ResponseText = responseText,
-            TopicEditorId = topicEditorId,
-          });
-
-          ++responsesInGroup;
-        }
-
-        if (responsesInGroup == 0)
+        if (!responses.Any())
         {
           throw new Exception($"Found empty INFO: {infoFormId}");
         }
+
+        dialDumpFile.AddResponses(responses);
       }
 
       return dialDumpFile;
