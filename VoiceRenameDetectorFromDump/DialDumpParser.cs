@@ -43,7 +43,9 @@ namespace VoiceRenameDetectorFromDump
       RegexOptions.Singleline);
 
     /// <summary>
-    /// 
+    /// Regex to match the beginning of a line that contains the response data
+    /// for a single voice line from an INFO. These lines begin with the
+    /// response number, followed by a ':' character.
     /// </summary>
     private static readonly Regex responseLineRegex = new Regex(
       @"[0-9]+:",
@@ -137,6 +139,8 @@ namespace VoiceRenameDetectorFromDump
     /// </exception>
     private static List<string[]> GetInfoGroups(string[] lines)
     {
+      ArgumentNullException.ThrowIfNull(lines);
+
       int nextGroupStartIndex = -1;
       int prevGroupStartIndex = -1;
       List<string[]> infoGroups = [];
@@ -198,6 +202,8 @@ namespace VoiceRenameDetectorFromDump
     /// </exception>
     private static (string infoFormId, string topicEditorId, string questEditorId) ParseInfoHeader(string header)
     {
+      ArgumentNullException.ThrowIfNull(header);
+
       // There can be an editor ID for the INFO at the beginning of the line.
       // We don't care about that, so just jump right to the "[INFO" part,
       // because that's where the form ID that we do care about is located.
