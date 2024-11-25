@@ -1,28 +1,50 @@
 # VoiceRenameDetectorFromDump
 
-## This info is outdated
+The input format for this program is a text file consisting of groups of text lines that provide details about the INFO records in an ESM or ESP file from Gamebryo or the Creation Engine. These records describe lines of dialogue.
 
-The input file is now a custom file format containing only the relevant info, because xEdit dumps aren't a guaranteed stable format.
+An INFO consists of one or more "responses", which are individual lines of dialogue that correspond to a voice file for that audio. Each INFO belongs to a DIAL (topic) and to a QUST (quest). And this information is used when generating the file name for the audio file corresponding to each line of dialogue.
 
-**Everything from here on is old**
-
-This tool will parse a pair of xEdit dump files and attempt to match the corresponding INFO records from the two files.
-
-This is to serve as the basis for a tool that will be able to take a set of original voice file paths from Oblivion and determine the correct voice file path for the corresponding voice file for the same dialogue in Skyrim, for the purposes of Skyblivion.
-
-## Creating the dump files
-
-Download [TES4Edit](https://www.nexusmods.com/oblivion/mods/11536) and put it into your Oblivion directory. Navigate to that directory in a terminal window and run the following command:
-
+Each group of text lines has the following format:
 ```text
-.\Optional\TES4Dump64.exe -dg:DIAL .\Data\Oblivion.esm > OblivionDIALs.txt
+<1 INFO header line>
+<1 or more response lines>
 ```
 
-Download [SSEEdit](https://www.nexusmods.com/skyrimspecialedition/mods/164) and put it into your Skyrim Special Edition directory. Navigate to that directory in a terminal window and run the following command:
-
+The INFO header line is formatted like this:
 ```text
-.\Optional\SSEDump64.exe -dg:DIAL .\Data\Skyblivion.esm > SkyblivionDIALs.txt
+<INFO editor ID> [INFO <form ID>] in <DIAL editor ID> [DIAL <form ID>] in <QUST editor ID> [QUST <form ID>]
 ```
+where:
 
-Obviously, this is assuming that you are matching Oblivion DIALs to Skyblivion DIALs.
+- `<INFO editor ID>` is an optional quoted value specifying the editor ID of the INFO record
+- `[INFO <form ID>]` is required and is literal except for `<form ID>`, which is replaced with the form ID of the INFO record
+- `<DIAL editor ID>` is an optional quoted value specifying the editor ID of the DIAL record that the INFO record belongs to
+- `[DIAL <form ID>]` is required and is literal except for `<form ID>`, which is replaced with the form ID of the DIAL record
+- `<QUST editor ID>` is an optional quoted value specifying the editor ID of the QUST record that the INFO record belongs to
 
+Valid lines INFO header lines include, but are not limited to:
+```text
+[INFO 00123456] in [DIAL 00ABFC32] in [QUST 00543212]
+"InfoEditorID" [INFO 00123456] in "DialEditorID" [DIAL 00ABFC32] in "QuestEditorID" [QUST 00543212]
+[INFO 00123456] in "DialEditorID" [DIAL 00ABFC32] in "QuestEditorID" [QUST 00543212]
+[INFO 00123456] in [DIAL 00ABFC32] in "QuestEditorID" [QUST 00543212]
+```
+After the INFO header are 1 or more lines of response text. These are formatted as:
+```text
+    <response number>: <response text>
+```
+where:
+- `<response number>` is the response number for the dialogue line, but note that this is distinct from the response _index_, which is the order that the dialogue lines are said - response numbers can be out of order
+- `<response text>` is the quoted text of the line of dialogue
+
+## Valid example file
+```text
+[INFO 00123456] in [DIAL 00ABFC32] in [QUST 00543212]
+    0: "Hi"
+    1: "What are you doing?"
+
+[INFO 00123457] in "DialEditorID" [DIAL 00ABFC32] in "QuestEditorID" [QUST 00543212]
+    5: "I saw a mudcrab the other day."
+    3: "Disgusting creatures"
+    2: "Well, goodbye."
+```
