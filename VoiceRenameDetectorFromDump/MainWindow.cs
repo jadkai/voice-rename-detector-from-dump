@@ -43,6 +43,11 @@ namespace VoiceRenameDetectorFromDump
 
               if (resolveMaybesAnswer == DialogResult.Yes)
               {
+                using (MaybeEqualResponseListWindow modalWindow = new MaybeEqualResponseListWindow(mergedFile))
+                {
+                  modalWindow.ShowDialog(this);
+                }
+                /*
                 foreach (var (firstResponse, secondResponse, distance) in mergedFile.MaybeEqualResponses)
                 {
                   var text1 = firstResponse.ResponseText;
@@ -69,6 +74,7 @@ namespace VoiceRenameDetectorFromDump
                     mergedFile.UnmatchedFromSecond.Remove(secondResponse);
                   }
                 }
+                */
               }
             }
 
