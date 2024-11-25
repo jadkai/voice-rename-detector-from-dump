@@ -139,17 +139,19 @@ namespace VoiceRenameDetectorFromDump
       ArgumentNullException.ThrowIfNull(first);
       ArgumentNullException.ThrowIfNull(second);
 
-      var listViewItem = new ListViewItem(first.QuestEditorId);
-
-      listViewItem.SubItems.Add(first.TopicEditorId);
-      listViewItem.SubItems.Add(first.ResponseNumber.ToString());
-      listViewItem.SubItems.Add(first.InfoFormId);
-      listViewItem.SubItems.Add(first.ResponseText);
-      listViewItem.SubItems.Add(second.QuestEditorId);
-      listViewItem.SubItems.Add(second.TopicEditorId);
-      listViewItem.SubItems.Add(second.ResponseNumber.ToString());
-      listViewItem.SubItems.Add(second.InfoFormId);
-      listViewItem.SubItems.Add(second.ResponseText);
+      var listViewItem = new ListViewItem(
+      [
+        first.QuestEditorId,
+        first.TopicEditorId,
+        first.InfoFormId,
+        first.ResponseNumber.ToString(),
+        first.ResponseText,
+        second.QuestEditorId,
+        second.TopicEditorId,
+        second.InfoFormId,
+        second.ResponseNumber.ToString(),
+        second.ResponseText
+      ]);
 
       return listViewItem;
     }
@@ -184,16 +186,19 @@ namespace VoiceRenameDetectorFromDump
     {
       ArgumentNullException.ThrowIfNull(response);
 
-      var listViewItem = new ListViewItem(response.QuestEditorId);
-      listViewItem.SubItems.Add(response.TopicEditorId);
-      listViewItem.SubItems.Add(response.ResponseNumber.ToString());
-      listViewItem.SubItems.Add(response.InfoFormId);
-      listViewItem.SubItems.Add(response.ResponseText);
-      listViewItem.SubItems.Add(string.Empty);
-      listViewItem.SubItems.Add(string.Empty);
-      listViewItem.SubItems.Add(string.Empty);
-      listViewItem.SubItems.Add(string.Empty);
-      listViewItem.SubItems.Add(string.Empty);
+      var listViewItem = new ListViewItem(
+      [
+        response.QuestEditorId,
+        response.TopicEditorId,
+        response.InfoFormId,
+        response.ResponseNumber.ToString(),
+        response.ResponseText,
+        string.Empty,
+        string.Empty,
+        string.Empty,
+        string.Empty,
+        string.Empty
+      ]);
 
       return listViewItem;
     }
@@ -229,16 +234,19 @@ namespace VoiceRenameDetectorFromDump
     {
       ArgumentNullException.ThrowIfNull(response);
 
-      var listViewItem = new ListViewItem(string.Empty);
-      listViewItem.SubItems.Add(string.Empty);
-      listViewItem.SubItems.Add(string.Empty);
-      listViewItem.SubItems.Add(string.Empty);
-      listViewItem.SubItems.Add(string.Empty);
-      listViewItem.SubItems.Add(response.QuestEditorId);
-      listViewItem.SubItems.Add(response.TopicEditorId);
-      listViewItem.SubItems.Add(response.ResponseNumber.ToString());
-      listViewItem.SubItems.Add(response.InfoFormId);
-      listViewItem.SubItems.Add(response.ResponseText);
+      var listViewItem = new ListViewItem(
+      [
+        string.Empty,
+        string.Empty,
+        string.Empty,
+        string.Empty,
+        string.Empty,
+        response.QuestEditorId,
+        response.TopicEditorId,
+        response.InfoFormId,
+        response.ResponseNumber.ToString(),
+        response.ResponseText
+      ]);
 
       return listViewItem;
     }
