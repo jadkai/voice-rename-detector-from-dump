@@ -78,7 +78,7 @@
             // 
             // columnHeader3
             // 
-            columnHeader3.Text = "INFO Editor ID 1";
+            columnHeader3.Text = "INFO Form ID 1";
             columnHeader3.Width = 100;
             // 
             // columnHeader2
@@ -103,7 +103,7 @@
             // 
             // columnHeader7
             // 
-            columnHeader7.Text = "INFO Editor ID 2";
+            columnHeader7.Text = "INFO Form ID 2";
             columnHeader7.Width = 100;
             // 
             // columnHeader6
