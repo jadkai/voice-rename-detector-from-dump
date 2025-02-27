@@ -151,7 +151,8 @@ namespace VoiceRenameDetectorFromDump
         second.InfoFormId,
         second.ResponseNumber.ToString(),
         second.ResponseText
-      ]);
+      ])
+      { Tag = new Tuple<Response?, Response?>(first, second) };
 
       return listViewItem;
     }
@@ -198,7 +199,8 @@ namespace VoiceRenameDetectorFromDump
         string.Empty,
         string.Empty,
         string.Empty
-      ]);
+      ])
+      { Tag = new Tuple<Response?, Response?>(response, null) };
 
       return listViewItem;
     }
@@ -246,7 +248,8 @@ namespace VoiceRenameDetectorFromDump
         response.InfoFormId,
         response.ResponseNumber.ToString(),
         response.ResponseText
-      ]);
+      ])
+      { Tag = new Tuple<Response?, Response?>(null, response) };
 
       return listViewItem;
     }
@@ -289,6 +292,47 @@ namespace VoiceRenameDetectorFromDump
     {
       ArgumentNullException.ThrowIfNull(listViewItem);
       return listViewItem.SubItems[4].Text;
+    }
+
+    private static string LimitTo(string str, int length)
+    {
+      return str.Substring(0, Math.Min(str.Length, length));
+    }
+
+    private static string GetFileName(Response response, bool limit)
+    {
+      //Old file names do not seem to be limited, like nqdcheydinhal_cheydinhalnqdquestionresponses_0003e95c_1.
+      string questEditorID = response.QuestEditorId;
+      if (limit) { questEditorID = LimitTo(questEditorID, 10); }
+      string questEditorIDAndTopicEditorID= questEditorID + "_" + response.TopicEditorId;
+      if (limit) { questEditorIDAndTopicEditorID = LimitTo(questEditorIDAndTopicEditorID, 26); }
+      questEditorIDAndTopicEditorID = questEditorIDAndTopicEditorID.ToLower();
+      return questEditorIDAndTopicEditorID + "_" + response.InfoFormId.ToLower() + "_" + response.ResponseNumber;
+    }
+
+    private void ExportButton_Click(object sender, EventArgs e)
+    {
+      var responseTuples = listView1.Items.Cast<ListViewItem>()
+        .Select(lvi => (Tuple<Response?, Response?>)lvi.Tag!)
+        .Where(t => t.Item1 != null && t.Item2 != null)
+        .Select(t => new Tuple<Response, Response, string, string>(t.Item1!, t.Item2!, GetFileName(t.Item1!, false), GetFileName(t.Item2!, true)))
+        .ToArray();
+      var nonDistinctOld = responseTuples.GroupBy(t => t.Item3).Where(g => g.Count() > 1).ToArray();
+      var nonDistinctNew = responseTuples.GroupBy(t => t.Item4).Where(g => g.Count() > 1).ToArray();
+      if (nonDistinctOld.Length > 0)
+      {
+        MessageBox.Show("Some old paths were non-distinct:\r\n" + string.Join("\r\n", nonDistinctOld.Select(g => g.Key + ": " + string.Join(", ", g.Select(t => t.Item4)))));
+      }
+      if (nonDistinctNew.Length > 0)
+      {
+        MessageBox.Show("Some new paths were non-distinct:\r\n" + string.Join("\r\n", nonDistinctNew.Select(g => g.Key + ": " + string.Join(", ", g.Select(t => t.Item3)))));
+      }
+      var distinctNew = responseTuples.DistinctBy(t=>t.Item4).ToArray();
+      string output = string.Join("\r\n\r\n", distinctNew.Select(t =>
+      {
+        return t.Item3 + "\r\n" + t.Item4;
+      }));
+      File.WriteAllText("Output.txt", output);
     }
   }
 }
