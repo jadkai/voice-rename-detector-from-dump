@@ -70,9 +70,10 @@ namespace VoiceRenameDetectorFromDump
             return EqualResponseList.Items.Cast<ListViewItem>().Where(liv => tags.Contains((string)liv.Tag!));
         }
 
+        private static readonly string[] prefixes = ["TES4", "SKYB"];
         private void AutoCheck_Click(object sender, EventArgs e)
         {
-            var likelyEqualResponses = mergedFile.MaybeEqualResponses.Where(r => r.Item3 == 1 && (r.Item1.TopicEditorId == "GREETING" || r.Item2.TopicEditorId == "" || "TES4" + r.Item1.TopicEditorId == r.Item2.TopicEditorId.Split('_')[0]) && "TES4" + r.Item1.QuestEditorId == r.Item2.QuestEditorId);
+            var likelyEqualResponses = mergedFile.MaybeEqualResponses.Where(r => r.Item3 == 1 && (r.Item1.TopicEditorId == "GREETING" || r.Item2.TopicEditorId == "" || prefixes.Any(p => p + r.Item1.TopicEditorId == r.Item2.TopicEditorId.Split('_')[0])) && prefixes.Any(p => p + r.Item1.QuestEditorId == r.Item2.QuestEditorId));
             var count = likelyEqualResponses.Count();
             foreach (var (firstResponse, secondResponse, distance) in likelyEqualResponses)
             {

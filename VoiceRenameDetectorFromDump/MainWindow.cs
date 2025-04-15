@@ -317,7 +317,7 @@ namespace VoiceRenameDetectorFromDump
         .Where(t => t.Item1 != null && t.Item2 != null)
         .Select(t => new Tuple<Response, Response, string, string>(t.Item1!, t.Item2!, GetFileName(t.Item1!, false), GetFileName(t.Item2!, true)))
         .ToArray();
-      var nonDistinctOld = responseTuples.GroupBy(t => t.Item3).Where(g => g.Count() > 1).ToArray();
+      /*var nonDistinctOld = responseTuples.GroupBy(t => t.Item3).Where(g => g.Count() > 1).ToArray();
       var nonDistinctNew = responseTuples.GroupBy(t => t.Item4).Where(g => g.Count() > 1).ToArray();
       if (nonDistinctOld.Length > 0)
       {
@@ -326,13 +326,13 @@ namespace VoiceRenameDetectorFromDump
       if (nonDistinctNew.Length > 0)
       {
         MessageBox.Show("Some new paths were non-distinct:\r\n" + string.Join("\r\n", nonDistinctNew.Select(g => g.Key + ": " + string.Join(", ", g.Select(t => t.Item3)))));
-      }
+      }*/
       var distinctNew = responseTuples.DistinctBy(t=>t.Item4).ToArray();
       string output = string.Join("\r\n\r\n", distinctNew.Select(t =>
       {
         return t.Item3 + "\r\n" + t.Item4;
       }));
-      File.WriteAllText("Output.txt", output);
+      File.WriteAllText("VoiceRenameDetectorOutput.txt", output);
     }
   }
 }
