@@ -6604,13 +6604,13 @@
     2: "Also, he seemed sober, which is a refreshing change. Usually Reynald is stumbling around Chorrol drunk as can be."
     3: "Very odd, but then, it's really none of my business."
 
-[INFO 01023F3D] in "TES4Dark03Choice1C" [DIAL 01023F12] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 01023F3D] in "SKYBDB03Choice1CTopic" [DIAL 01023F12] in "SKYBDB03" [QUST 010232D1]
     1: "Why are you here? What do you want? Get out of my house!"
 
-[INFO 01023F3F] in "TES4Dark03Choice1B" [DIAL 01023F13] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 01023F3F] in "SKYBDB03Choice1BTopic" [DIAL 01023F13] in "SKYBDB03" [QUST 010232D1]
     1: "The Night Mother? What's this all about? I... I think you should leave now. You hear me? Get out! Gromm! Gromm! we have an intruder! "
 
-[INFO 01023F3E] in "TES4Dark03Choice1A" [DIAL 01023F14] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 01023F3E] in "SKYBDB03Choice1ATopic" [DIAL 01023F14] in "SKYBDB03" [QUST 010232D1]
     1: "Dead? Me? There... there must be some mistake.... I'm just an old man! Just an old man!"
 
 [INFO 01023F3B] in "TES4Dark01Choice1C" [DIAL 01023F15] in "TES4Dark01Knife" [QUST 010224EB]
@@ -9204,7 +9204,7 @@
 [INFO 01028881] in "TES4FGD06Weapon1" [DIAL 0102886A] in "TES4FGC06Courier" [QUST 01027F8E]
     1: "Ah... a hammer. Well. Not my first choice, but it will suffice. Let's go!"
 
-[INFO 01028888] in "TES4FGC01RatsGreeting1Topic" [DIAL 01028883] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 01028888] in "SKYBFGC01RatsGreetingTopic" [DIAL 01028883] in "SKYBFGC01" [QUST 01035713]
     1: "Thank the gods you killed that thing. This is ridiculous! Someone's out to get me, to get my poor babies! I'll bet it's that Quill-Weave next door."
 
 [INFO 01028A33] in "TES4EmfridDEMOchoice4" [DIAL 010289EC] in "TES4EmfridDEMO" [QUST 01028A34]
@@ -12274,10 +12274,10 @@
 [INFO 0103572B] in "TES4NorbertLellesTOPIC" [DIAL 01035688] in "TES4FGC02Protect" [QUST 01035714]
     1: "He runs Lelles' Quality "Mercandise." Ha! Not a bad sort. You can usually find him in his store."
 
-[INFO 010356B3] in "TES4ratsTOPIC" [DIAL 01035689] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 010356B3] in "SKYBFGC01RatsTopic" [DIAL 01035689] in "SKYBFGC01" [QUST 01035713]
     1: "Yes, rats. I'm sure she can explain it to you better than I. She lives here in Anvil. Go and talk to her. Good luck!"
 
-[INFO 01036625] in "TES4ratsTOPIC" [DIAL 01035689] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 01036625] in "SKYBFGC01RatsTopic" [DIAL 01035689] in "SKYBFGC01" [QUST 01035713]
     1: "That's right. Rats. In my basement. And something has been killing them! It's horrible. My poor babies! You must do something!"
     2: "I don't know what I'd do without them. Their little pink noses, their scaly little tails. Please, get to the basement and find out what's happening."
 
@@ -12667,35 +12667,35 @@
 [INFO 01098393] in "TES4MS26ItiusResponse" [DIAL 01036604] in "TES4MS26" [QUST 01035CA8]
     1: "This is the second complaint against Audens. I will personally go and arrest him."
 
-[INFO 0103663F] in "TES4FGC01Choice4" [DIAL 01036610] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0103663F] in "SKYBFGC01Choice4Topic" [DIAL 01036610] in "SKYBFGC01" [QUST 01035713]
     1: "She didn't, huh? Hmph. But, you've taken care of the problem, and I suppose that's what counts. Thanks for that. Here's your payment."
 
-[INFO 0103663E] in "TES4FGC01Choice3" [DIAL 01036611] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0103663E] in "SKYBFGC01Choice3Topic" [DIAL 01036611] in "SKYBFGC01" [QUST 01035713]
     1: "I knew it! That s'wit! Oh, I'll get her. You just wait! Must have taken some fast talking to get her to confess!"
     3: "Maybe I can teach you a little bit more about how to talk to people. And, of course, here's the payment for the contract. Thank you."
 
-[INFO 0103663D] in "TES4FGC01Choice2" [DIAL 01036612] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0103663D] in "SKYBFGC01Choice2Topic" [DIAL 01036612] in "SKYBFGC01" [QUST 01035713]
     1: "You what? Well, I'm sure I don't know what you're talking about. I would never go skulking about...."
     2: "Fine. You've got me. I figured if I left some rotten meat outside, the nasty little things would come out, and the guards would take care of them."
 
-[INFO 0103662A] in "TES4FGC01Choice1" [DIAL 01036613] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0103662A] in "SKYBFGC01Choice1" [DIAL 01036613] in "SKYBFGC01" [QUST 01035713]
     1: "A mountain lion? In my basement? But... how? That's not possible. But, it happened! What if there are more? What if it wasn't alone?"
     2: "Where there's one, there will be more. Find Pinarus Inventius. He's a hunter, and knows this area inside and out. He'll know what to do."
 
-[INFO 01036623] in "TES4MountainLionsTOPIC" [DIAL 01036614] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 01036623] in "SKYBFGC01MountainLionsTopic" [DIAL 01036614] in "SKYBFGC01" [QUST 01035713]
     1: "Mountain lions! In her basement? I just wanted to lure her vermin outside! I didn't mean to hurt anyone, except the rats. Please, don't tell her!"
     3: "And, if you can keep this our little secret, I can make it worth your while. There's a bit about acrobatics I can teach you. Give it some thought."
 
-[INFO 0118BD5C] in "TES4MountainLionsTOPIC" [DIAL 01036614] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0118BD5C] in "SKYBFGC01MountainLionsTopic" [DIAL 01036614] in "SKYBFGC01" [QUST 01035713]
     1: "I don't know what you're talking about. I'm not sure what you're accusing me of, but don't do it without any proof!"
 
-[INFO 01036624] in "TES4MountainLionsTOPIC" [DIAL 01036614] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 01036624] in "SKYBFGC01MountainLionsTopic" [DIAL 01036614] in "SKYBFGC01" [QUST 01035713]
     1: "You think you've gotten rid of them all? You do? Well, you haven't! There's one in my basement right now! Go get it!"
 
-[INFO 0103662B] in "TES4MountainLionsTOPIC" [DIAL 01036614] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0103662B] in "SKYBFGC01MountainLionsTopic" [DIAL 01036614] in "SKYBFGC01" [QUST 01035713]
     1: "Mountain lions? Here? Odd. If they're around, I can find them. Come with me. A hunt will do us good, and maybe make that old nut feel better."
 
-[INFO 01036637] in "TES4QuillWeaveTOPIC" [DIAL 01036615] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 01036637] in "SKYBFGC01QuillWeaveTopic" [DIAL 01036615] in "SKYBFGC01" [QUST 01035713]
     1: "She's the one. She's never liked me or my sweet little pets. I know it's her. I've even seen her sneaking around in back of my house at night."
     2: "She thinks she's so smart. She and all the other women. I'll show her! I want you to keep an eye on her. Find out what she's up to."
 
@@ -22370,6 +22370,15 @@
     1: "Hahaha! Knights of the Thorn!"
     2: "A thorn in our side is more like it! Those fools are nothing but a glorified club. They've never contributed to anything useful, and never will."
 
+[INFO 010E42AF] in "SKYBFGC01RatsPinarusLionTopicFinish" [DIAL 010E42AE] in "SKYBFGC01" [QUST 01035713]
+    1: " "
+
+[INFO 010E42B2] in "SKYBFGC01RatsGreetStayInMenuTilDone" [DIAL 010E42B0] in "SKYBFGC01" [QUST 01035713]
+    1: " "
+
+[INFO 010E42B4] in "SKYBFGC01RatsQuillWeaveGreetFinish" [DIAL 010E42B3] in "SKYBFGC01" [QUST 01035713]
+    1: "You've got to be light on your feet to make it around here, and that's something I'm good at. Maybe you can be, too. Take care."
+
 [INFO 01126556] in "TES4WERoads04branchTopic" [DIAL 01126555] in "TES4WERoads04" [QUST 01126551]
     1: "Stay out of our way, Citizen!"
 
@@ -22745,14 +22754,14 @@
 [INFO 011885DD] in "TES4SQ01Bread" [DIAL 011885D0] in "TES4SQFIN" [QUST 01177A32]
     1: "Would you like to buy some of my Famous Potato Bread?"
 
-[INFO 010C55C5] in "TES4SQ01Potatoes" [DIAL 011885D1] in "TES4SQ01" [QUST 01177A31]
+[INFO 010C55C5] in "SKYBQ01PotatoesTopic" [DIAL 011885D1] in "SKYBSQ01" [QUST 01177A31]
     1: "Oh my goodness! You found them! Ohhhh! I could kiss you!"
     2: "As promised, I owe you a reward for your efforts. I present you with my first batch of Famous Potato Bread! More valuable than gold! Enjoy!"
 
-[INFO 0118885E] in "TES4SQ01Potatoes" [DIAL 011885D1] in "TES4SQ01" [QUST 01177A31]
+[INFO 0118885E] in "SKYBQ01PotatoesTopic" [DIAL 011885D1] in "SKYBSQ01" [QUST 01177A31]
     1: "My potatoes are like my children. I care for and nurture each one individually. That way, they grow up to be big and strong."
 
-[INFO 011885DB] in "TES4SQ01Potatoes" [DIAL 011885D1] in "TES4SQ01" [QUST 01177A31]
+[INFO 011885DB] in "SKYBQ01PotatoesTopic" [DIAL 011885D1] in "SKYBSQ01" [QUST 01177A31]
     1: "Please, you must help me find them! If I don't have them for the next batch of my Famous Potato Bread, I don't know what I'll do!"
     2: "How stupid I was to leave them outside all alone like that! All I wanted to do was give them some sun. Next thing I knew, they were gone!"
     3: "I saw someone running off to the west, but I'm too frightened to journey into the woods alone. Please... can you help me? I'll pay you well, I swear!"
@@ -22770,23 +22779,23 @@
     4: "I need someone to go in there and put a stop to those fetchers. I don't care what it takes. We must get that poison they're selling off the street."
     5: "Bring me Lonavo's ring as proof he's... been dealt with... and I'll give you the bounty on him."
 
-[INFO 01189D08] in "TES4SQ03Continue" [DIAL 01189CF7] in "TES4SQ03" [QUST 01185FE8]
+[INFO 01189D08] in "SKYBSQ03ContinueTopic" [DIAL 01189CF7] in "SKYBSQ03" [QUST 01185FE8]
     1: "I'll tell you how you can help."
     2: "Kill those things. Every last one of them! They destroyed everything I hold dear!"
     3: "In their greed, the creatures grabbed a Jade Amulet off of Kayleen's... body. Bring me back that amulet, so I may use it to remember her by."
 
-[INFO 01189CF9] in "TES4SQ03Avenge" [DIAL 01189CF8] in "TES4SQ03" [QUST 01185FE8]
+[INFO 01189CF9] in "SKYBSQ03AvengeTopic" [DIAL 01189CF8] in "SKYBSQ03" [QUST 01185FE8]
     1: "Then it's finally done. The Goblins have paid with their blood, and my wife's brutal slaying is avenged."
     2: "You risked life and limb for a cause that wasn't your own. For that, I'm grateful. Please, accept these gems as a token of my gratitude."
     3: "They're all I have left of value, but you must have them. I insist."
 
-[INFO 01189CFC] in "TES4SQ03Avenge" [DIAL 01189CF8] in "TES4SQ03" [QUST 01185FE8]
+[INFO 01189CFC] in "SKYBSQ03AvengeTopic" [DIAL 01189CF8] in "SKYBSQ03" [QUST 01185FE8]
     1: "But... this is amazing!"
     2: "I haven't tasked you to bring the amulet back to me, and yet you have. I don't know which of the Divines sent you, but I appreciate what you've done."
     3: "Those Goblins in Exhausted Mine you got this from killed my poor wife while I was away from home. Now I have my vengeance."
     4: "And now you have a reward. Please, take it. It's everything I have left of value, but it's the least I can do."
 
-[INFO 01189D07] in "TES4SQ03Avenge" [DIAL 01189CF8] in "TES4SQ03" [QUST 01185FE8]
+[INFO 01189D07] in "SKYBSQ03AvengeTopic" [DIAL 01189CF8] in "SKYBSQ03" [QUST 01185FE8]
     1: "Barely a week ago, I left Harm's Folly to go buy supplies as I usually do once a month. What a fool I was to leave my wife alone."
     2: "The Goblins must have been watching me, as they knew right when to strike. I could hear Kayleen's screams from far away."
     3: "Those wretched beasts killed her! Filthy animals! Had I only been there to stop them!"
@@ -23069,7 +23078,7 @@
 [INFO 010732B3] in "TES4PrisonVisitor" [DIAL 0118D1DB] in "TES4NQDGuard" [QUST 0102B7EB]
     1: "Since we don't have any Argonians, I can allow it. The Countess won't allow visitors to Argonian prisoners. I'll be watching though."
 
-[INFO 0118D92E] in "TES4ShadowbanishWine" [DIAL 0118D922] in "TES4SQ08" [QUST 01185FED]
+[INFO 0118D92E] in "SKYBSQ08ShadowbanishWineTopic" [DIAL 0118D922] in "SKYBSQ08" [QUST 01185FED]
     2: "Well, apparently the wine is so rare because it was only made in one tiny batch. It's the product of an alchemist who was also a vintner."
     3: "Besides tasting incredible, the magic within the wine allows the imbiber to be gifted with Night Eye!"
     4: "The vintner made it special for the Legion soldiers posted at the forts when they were active long ago."
@@ -27318,10 +27327,10 @@
 [INFO 0118917F] in "TES4GREETING_181c6b" [DIAL 011958E1] in "TES4SQ02" [QUST 01181C6B]
     1: "Hmmm. Perhaps you'll be able to assist me. I'm after some skooma dealers."
 
-[INFO 01189CFD] in "TES4GREETING_185fe8" [DIAL 011958E2] in "TES4SQ03" [QUST 01185FE8]
+[INFO 01189CFD] in "SKYBSQ03GreetingTopic" [DIAL 011958E2] in "SKYBSQ03" [QUST 01185FE8]
     1: "What news do you bring me from Exhausted Mine? "
 
-[INFO 01189D00] in "TES4GREETING_185fe8" [DIAL 011958E2] in "TES4SQ03" [QUST 01185FE8]
+[INFO 01189D00] in "SKYBSQ03GreetingTopic" [DIAL 011958E2] in "SKYBSQ03" [QUST 01185FE8]
     1: "Please... I implore you, help me avenge my wife's death!"
 
 [INFO 0118A959] in "TES4GREETING_185fe9" [DIAL 011958E3] in "TES4SQ04" [QUST 01185FE9]
@@ -27342,10 +27351,10 @@
 [INFO 0118AFD8] in "TES4GREETING_185feb" [DIAL 011958E5] in "TES4SQ06" [QUST 01185FEB]
     1: "I wish I could be more hospitable, but I'm a bit distracted. It seems I'm having a bear problem and I just don't know what to do."
 
-[INFO 0118D92C] in "TES4GREETING_185fed" [DIAL 011958E6] in "TES4SQ08" [QUST 01185FED]
+[INFO 0118D92C] in "SKYBSQ08GreetingTopic" [DIAL 011958E6] in "SKYBSQ08" [QUST 01185FED]
     1: "Any luck on those bottles of Shadowbanish Wine yet?"
 
-[INFO 0118D2F7] in "TES4GREETING_185fed" [DIAL 011958E6] in "TES4SQ08" [QUST 01185FED]
+[INFO 0118D2F7] in "SKYBSQ08GreetingTopic" [DIAL 011958E6] in "SKYBSQ08" [QUST 01185FED]
     1: "Welcome to the Wawnet Inn. Could I interest you in a room or perhaps a bit of wine?"
 
 [INFO 01071097] in "TES4GREETING_2429c" [DIAL 011958E7] in "TES4FGD02DandD" [QUST 0102429C]
@@ -30131,47 +30140,37 @@
 [INFO 010B6BFF] in "TES4GREETING_35714" [DIAL 01195923] in "TES4FGC02Protect" [QUST 01035714]
     1: "No time to talk. Go away."
 
-[INFO 01036616] in "TES4GREETING_35713" [DIAL 01195924] in "TES4FGC01Rats" [QUST 01035713]
-    1: "So, you didn't sell me out. I appreciate that. Well, I said I'd make it worth your while, so let me teach you a little something."
-    2: "You've got to be light on your feet to make it around here, and that's something I'm good at. Maybe you can be, too. Take care."
-
-[INFO 01036617] in "TES4GREETING_35713" [DIAL 01195924] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 01036617] in "SKYBFGC01GreetingTopic" [DIAL 01195924] in "SKYBFGC01" [QUST 01035713]
     1: "You told her? What have you done? I'll be ruined! Thanks a lot."
 
-[INFO 01036618] in "TES4GREETING_35713" [DIAL 01195924] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 01036618] in "SKYBFGC01GreetingTopic" [DIAL 01195924] in "SKYBFGC01" [QUST 01035713]
     1: "Please, don't tell her what I've done. I can make it worth your while...."
 
-[INFO 0103661A] in "TES4GREETING_35713" [DIAL 01195924] in "TES4FGC01Rats" [QUST 01035713]
-    1: "I think that'll be all of them. Can't imagine more in this area. You can go tell Arvena this is all taken care of. Good hunting."
-
-[INFO 0103661B] in "TES4GREETING_35713" [DIAL 01195924] in "TES4FGC01Rats" [QUST 01035713]
-    1: "If they're out here, they'll be in this area. I can't imagine there are more than four of them. Let's take care of this."
-
-[INFO 0103661C] in "TES4GREETING_35713" [DIAL 01195924] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0103661C] in "SKYBFGC01GreetingTopic" [DIAL 01195924] in "SKYBFGC01" [QUST 01035713]
     1: "Let's see if we can't find those mountain lions."
 
-[INFO 0106EDEC] in "TES4GREETING_35713" [DIAL 01195924] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0106EDEC] in "SKYBFGC01GreetingTopic" [DIAL 01195924] in "SKYBFGC01" [QUST 01035713]
     1: "My rats are all dead! It's too late to do any more. I won't be needing your services any longer."
 
-[INFO 0103661E] in "TES4GREETING_35713" [DIAL 01195924] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0103661E] in "SKYBFGC01GreetingTopic" [DIAL 01195924] in "SKYBFGC01" [QUST 01035713]
     1: "Thank the gods you killed that thing. This is ridiculous! Someone's out to get me, to get my poor babies! I'll bet it's that Quill-Weave next door."
 
-[INFO 0103661F] in "TES4GREETING_35713" [DIAL 01195924] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0103661F] in "SKYBFGC01GreetingTopic" [DIAL 01195924] in "SKYBFGC01" [QUST 01035713]
     1: "Don't just stand there! Go get that mountain lion!"
 
-[INFO 01036620] in "TES4GREETING_35713" [DIAL 01195924] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 01036620] in "SKYBFGC01GreetingTopic" [DIAL 01195924] in "SKYBFGC01" [QUST 01035713]
     1: "You've got to take care of those mountain lions!"
 
-[INFO 01036621] in "TES4GREETING_35713" [DIAL 01195924] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 01036621] in "SKYBFGC01GreetingTopic" [DIAL 01195924] in "SKYBFGC01" [QUST 01035713]
     1: "You should be looking for Pinarus! What are you doing here?"
 
-[INFO 01085D61] in "TES4GREETING_35713" [DIAL 01195924] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 01085D61] in "SKYBFGC01GreetingTopic" [DIAL 01195924] in "SKYBFGC01" [QUST 01035713]
     1: "Aren't you going to take care of this? What am I paying you for?"
 
-[INFO 010356A8] in "TES4GREETING_35713" [DIAL 01195924] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 010356A8] in "SKYBFGC01GreetingTopic" [DIAL 01195924] in "SKYBFGC01" [QUST 01035713]
     1: "Ah... you must be from the Fighters Guild. Good. I have a problem. It has to do with the rats in my basement."
 
-[INFO 0108320D] in "TES4GREETING_35713" [DIAL 01195924] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0108320D] in "SKYBFGC01GreetingTopic" [DIAL 01195924] in "SKYBFGC01" [QUST 01035713]
     1: "You need to help Arvena Thelas with her rat problem. What's on your mind?"
 
 [INFO 010270E9] in "TES4GREETING_1e72e" [DIAL 01195925] in "TES4MQ12" [QUST 0101E72E]
@@ -30479,7 +30478,7 @@
 [INFO 01023E2F] in "TES4GREETING_232d0" [DIAL 0119593B] in "TES4Dark02WateryFIN" [QUST 010232D0]
     1: "I'm glad you've returned. The contract is waiting, if you're ready."
 
-[INFO 010253B8] in "TES4GREETING_232d1" [DIAL 0119593D] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 010253B8] in "TES4GREETING_232d1" [DIAL 0119593D] in "SKYBDB03" [QUST 010232D1]
     1: "Every moment that Baenlin draws breath is an affront to Sithis and the Night Mother. Fulfill the contract and honor the Brotherhood as you should."
 
 [INFO 01025071] in "TES4GREETING_251e6" [DIAL 0119593E] in "TES4Dark00GeneralNPC" [QUST 010251E6]
@@ -31587,13 +31586,13 @@
 [INFO 0117C45E] in "TES4GREETING_224d8" [DIAL 01195954] in "TES4MS48" [QUST 010224D8]
     2: "You'd best get back to the encampment. There's no telling when more of them will come out of that infernal Oblivion Gate."
 
-[INFO 011885D7] in "TES4GREETING_177a31" [DIAL 01195955] in "TES4SQ01" [QUST 01177A31]
+[INFO 011885D7] in "SKYBSQ01GreetingTopic" [DIAL 01195955] in "SKYBSQ01" [QUST 01177A31]
     1: "You have them! You have them! I can sense they're with you!"
 
-[INFO 011885D9] in "TES4GREETING_177a31" [DIAL 01195955] in "TES4SQ01" [QUST 01177A31]
+[INFO 011885D9] in "SKYBSQ01GreetingTopic" [DIAL 01195955] in "SKYBSQ01" [QUST 01177A31]
     1: "I can tell you haven't been successful yet. But keep trying!"
 
-[INFO 011885DA] in "TES4GREETING_177a31" [DIAL 01195955] in "TES4SQ01" [QUST 01177A31]
+[INFO 011885DA] in "SKYBSQ01GreetingTopic" [DIAL 01195955] in "SKYBSQ01" [QUST 01177A31]
     1: "Can you help me find my lost Jumbo Potatoes?"
 
 [INFO 0103002E] in "TES4GREETING_2f86b" [DIAL 01195956] in "TES4MS47" [QUST 0102F86B]
@@ -35045,10 +35044,10 @@
 [INFO 0103C17A] in "TES4HELLO_165e6" [DIAL 011959BE] in "TES4TGInfo" [QUST 010165E6]
     1: "The Gray Fox protects you."
 
-[INFO 0118D928] in "TES4HELLO_185fed" [DIAL 011959BF] in "TES4SQ08" [QUST 01185FED]
+[INFO 0118D928] in "SKYBSQ08HelloTopic" [DIAL 011959BF] in "SKYBSQ08" [QUST 01185FED]
     1: "Welcome back, traveler."
 
-[INFO 0118D929] in "TES4HELLO_185fed" [DIAL 011959BF] in "TES4SQ08" [QUST 01185FED]
+[INFO 0118D929] in "SKYBSQ08HelloTopic" [DIAL 011959BF] in "SKYBSQ08" [QUST 01185FED]
     1: "So, what brings you here today?"
 
 [INFO 010C453E] in "TES4HELLO_32e05" [DIAL 011959C0] in "TES4MSMisc" [QUST 01032E05]
@@ -35069,16 +35068,16 @@
 [INFO 0106155B] in "TES4HELLO_185fef" [DIAL 011959C2] in "TES4SQ10" [QUST 01185FEF]
     1: "What do you want?"
 
-[INFO 011885D5] in "TES4HELLO_177a31" [DIAL 011959C3] in "TES4SQ01" [QUST 01177A31]
+[INFO 011885D5] in "SKYBSQ01HelloTopic" [DIAL 011959C3] in "SKYBSQ01" [QUST 01177A31]
     1: "Did you fare well?"
 
-[INFO 011885E0] in "TES4HELLO_177a31" [DIAL 011959C3] in "TES4SQ01" [QUST 01177A31]
+[INFO 011885E0] in "SKYBSQ01HelloTopic" [DIAL 011959C3] in "SKYBSQ01" [QUST 01177A31]
     1: "Ohhhh... what am I to do? They're gone... all gone."
 
-[INFO 01189CFB] in "TES4HELLO_185fe8" [DIAL 011959C4] in "TES4SQ03" [QUST 01185FE8]
+[INFO 01189CFB] in "SKYBSQ03HelloTopic" [DIAL 011959C4] in "SKYBSQ03" [QUST 01185FE8]
     1: "Well met. I trust no great harm has befallen you."
 
-[INFO 01189D09] in "TES4HELLO_185fe8" [DIAL 011959C4] in "TES4SQ03" [QUST 01185FE8]
+[INFO 01189D09] in "SKYBSQ03HelloTopic" [DIAL 011959C4] in "SKYBSQ03" [QUST 01185FE8]
     1: "If you're here to rob me, I'm afraid I have nothing left."
 
 [INFO 0118ABD3] in "TES4HELLO_185fea" [DIAL 011959C5] in "TES4SQ05" [QUST 01185FEA]
@@ -35999,34 +35998,34 @@
 [INFO 0104F3E5] in "TES4HELLO_35714" [DIAL 011959E6] in "TES4FGC02Protect" [QUST 01035714]
     1: "Shouldn't you be helping Norbert Lelles?"
 
-[INFO 01033752] in "TES4HELLO_35713" [DIAL 011959E7] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 01033752] in "SKYBFGC01HelloTopic" [DIAL 011959E7] in "SKYBFGC01" [QUST 01035713]
     1: "What did you do to my little rats?"
 
-[INFO 0103376B] in "TES4HELLO_35713" [DIAL 011959E7] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0103376B] in "SKYBFGC01HelloTopic" [DIAL 011959E7] in "SKYBFGC01" [QUST 01035713]
     1: "Oh, you're such a sweetie!"
 
-[INFO 0104F549] in "TES4HELLO_35713" [DIAL 011959E7] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0104F549] in "SKYBFGC01HelloTopic" [DIAL 011959E7] in "SKYBFGC01" [QUST 01035713]
     1: "Why aren't you finding Pinarus?"
 
-[INFO 01033779] in "TES4HELLO_35713" [DIAL 011959E7] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 01033779] in "SKYBFGC01HelloTopic" [DIAL 011959E7] in "SKYBFGC01" [QUST 01035713]
     1: "Oh, my poor little rats!"
 
-[INFO 0104F3EE] in "TES4HELLO_35713" [DIAL 011959E7] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0104F3EE] in "SKYBFGC01HelloTopic" [DIAL 011959E7] in "SKYBFGC01" [QUST 01035713]
     1: "Don't you have a rat problem to be handling, boot?"
 
-[INFO 0104F54B] in "TES4HELLO_35713" [DIAL 011959E7] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0104F54B] in "SKYBFGC01HelloTopic" [DIAL 011959E7] in "SKYBFGC01" [QUST 01035713]
     1: "Shouldn't have any more problems with those cats."
 
-[INFO 0104F54D] in "TES4HELLO_35713" [DIAL 011959E7] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0104F54D] in "SKYBFGC01HelloTopic" [DIAL 011959E7] in "SKYBFGC01" [QUST 01035713]
     1: "Let's kill us some big cats."
 
-[INFO 0104F54F] in "TES4HELLO_35713" [DIAL 011959E7] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0104F54F] in "SKYBFGC01HelloTopic" [DIAL 011959E7] in "SKYBFGC01" [QUST 01035713]
     1: "What can I do for you?"
 
-[INFO 0107B79C] in "TES4HELLO_35713" [DIAL 011959E7] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0107B79C] in "SKYBFGC01HelloTopic" [DIAL 011959E7] in "SKYBFGC01" [QUST 01035713]
     1: "Get to it, rat girl."
 
-[INFO 0107B79E] in "TES4HELLO_35713" [DIAL 011959E7] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0107B79E] in "SKYBFGC01HelloTopic" [DIAL 011959E7] in "SKYBFGC01" [QUST 01035713]
     1: "Get to it, rat boy."
 
 [INFO 0101E0D4] in "TES4HELLO_1d21c" [DIAL 011959E8] in "TES4MS23" [QUST 0101D21C]
@@ -39617,10 +39616,10 @@
 [INFO 01074FDA] in "TES4GOODBYE_10602" [DIAL 01195A75] in "TES4Generic" [QUST 01010602]
     1: "Just leave."
 
-[INFO 01189CFA] in "TES4GOODBYE_185fe8" [DIAL 01195A76] in "TES4SQ03" [QUST 01185FE8]
+[INFO 01189CFA] in "SKYBSQ03GoodbyeTopic" [DIAL 01195A76] in "SKYBSQ03" [QUST 01185FE8]
     1: "Exhausted Mine is not far to the southeast. Be careful, its many twists and turns hide the Goblin hordes."
 
-[INFO 01189D0A] in "TES4GOODBYE_185fe8" [DIAL 01195A76] in "TES4SQ03" [QUST 01185FE8]
+[INFO 01189D0A] in "SKYBSQ03GoodbyeTopic" [DIAL 01195A76] in "SKYBSQ03" [QUST 01185FE8]
     1: "Please, don't go. You may be my only hope."
 
 [INFO 010C4537] in "TES4GOODBYE_c452e" [DIAL 01195A77] in "TES4MS13Alt" [QUST 010C452E]
@@ -39632,10 +39631,10 @@
 [INFO 010C4539] in "TES4GOODBYE_c452e" [DIAL 01195A77] in "TES4MS13Alt" [QUST 010C452E]
     1: "You will remember the day you met Farwil Indarys and treasure every moment after."
 
-[INFO 0118D926] in "TES4GOODBYE_185fed" [DIAL 01195A78] in "TES4SQ08" [QUST 01185FED]
+[INFO 0118D926] in "SKYBSQ08GoodbyeTopic" [DIAL 01195A78] in "SKYBSQ08" [QUST 01185FED]
     1: "Keep looking for that wine! Farewell!"
 
-[INFO 0118D927] in "TES4GOODBYE_185fed" [DIAL 01195A78] in "TES4SQ08" [QUST 01185FED]
+[INFO 0118D927] in "SKYBSQ08GoodbyeTopic" [DIAL 01195A78] in "SKYBSQ08" [QUST 01185FED]
     1: "Have a fine journey, and keep yourself safe."
 
 [INFO 0118AFDE] in "TES4GOODBYE_185feb" [DIAL 01195A79] in "TES4SQ06" [QUST 01185FEB]
@@ -39656,13 +39655,13 @@
 [INFO 01189184] in "TES4GOODBYE_181c6b" [DIAL 01195A7B] in "TES4SQ02" [QUST 01181C6B]
     1: "Hmph. Suit yourself."
 
-[INFO 011885D3] in "TES4GOODBYE_177a31" [DIAL 01195A7C] in "TES4SQ01" [QUST 01177A31]
+[INFO 011885D3] in "SKYBSQ01GoodbyeTopic" [DIAL 01195A7C] in "SKYBSQ01" [QUST 01177A31]
     1: "Please... give them to me! I must have them!"
 
-[INFO 011885D4] in "TES4GOODBYE_177a31" [DIAL 01195A7C] in "TES4SQ01" [QUST 01177A31]
+[INFO 011885D4] in "SKYBSQ01GoodbyeTopic" [DIAL 01195A7C] in "SKYBSQ01" [QUST 01177A31]
     1: "Be careful, that brute was absolutely huge!"
 
-[INFO 011885E1] in "TES4GOODBYE_177a31" [DIAL 01195A7C] in "TES4SQ01" [QUST 01177A31]
+[INFO 011885E1] in "SKYBSQ01GoodbyeTopic" [DIAL 01195A7C] in "SKYBSQ01" [QUST 01177A31]
     1: "Won't you help me... please?"
 
 [INFO 011885D2] in "TES4GOODBYE_177a32" [DIAL 01195A7D] in "TES4SQFIN" [QUST 01177A32]
@@ -41519,31 +41518,31 @@
 [INFO 0103379C] in "TES4GOODBYE_356c9" [DIAL 01195AD5] in "TES4FGD08Infiltration" [QUST 010356C9]
     1: "Good luck."
 
-[INFO 0103375B] in "TES4GOODBYE_35713" [DIAL 01195AD6] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0103375B] in "SKYBFGC01GoodbyeTopic" [DIAL 01195AD6] in "SKYBFGC01" [QUST 01035713]
     1: "Oh, the poor little rats!"
 
-[INFO 01033769] in "TES4GOODBYE_35713" [DIAL 01195AD6] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 01033769] in "SKYBFGC01GoodbyeTopic" [DIAL 01195AD6] in "SKYBFGC01" [QUST 01035713]
     1: "Oh, my rats are so cute!"
 
-[INFO 0104F548] in "TES4GOODBYE_35713" [DIAL 01195AD6] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0104F548] in "SKYBFGC01GoodbyeTopic" [DIAL 01195AD6] in "SKYBFGC01" [QUST 01035713]
     1: "Please, go find Pinarus, and those mountain lions!"
 
-[INFO 01033778] in "TES4GOODBYE_35713" [DIAL 01195AD6] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 01033778] in "SKYBFGC01GoodbyeTopic" [DIAL 01195AD6] in "SKYBFGC01" [QUST 01035713]
     1: "Please save my little rats!"
 
-[INFO 0104F3EF] in "TES4GOODBYE_35713" [DIAL 01195AD6] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0104F3EF] in "SKYBFGC01GoodbyeTopic" [DIAL 01195AD6] in "SKYBFGC01" [QUST 01035713]
     1: "Go take care of the rats. Then talk to me."
 
-[INFO 0104F54A] in "TES4GOODBYE_35713" [DIAL 01195AD6] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0104F54A] in "SKYBFGC01GoodbyeTopic" [DIAL 01195AD6] in "SKYBFGC01" [QUST 01035713]
     1: "Better go talk to ol' Arvena."
 
-[INFO 0104F54C] in "TES4GOODBYE_35713" [DIAL 01195AD6] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0104F54C] in "SKYBFGC01GoodbyeTopic" [DIAL 01195AD6] in "SKYBFGC01" [QUST 01035713]
     1: "Let's go hunting."
 
-[INFO 0104F550] in "TES4GOODBYE_35713" [DIAL 01195AD6] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0104F550] in "SKYBFGC01GoodbyeTopic" [DIAL 01195AD6] in "SKYBFGC01" [QUST 01035713]
     1: "Let me know if you need my help."
 
-[INFO 0107B79B] in "TES4GOODBYE_35713" [DIAL 01195AD6] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0107B79B] in "SKYBFGC01GoodbyeTopic" [DIAL 01195AD6] in "SKYBFGC01" [QUST 01035713]
     1: "Take care of the rats."
 
 [INFO 0103375E] in "TES4GOODBYE_2d71a" [DIAL 01195AD7] in "TES4FGD04Defector" [QUST 0102D71A]
@@ -52719,7 +52718,7 @@
 [INFO 0100395D] in "TES4contract_35717" [DIAL 01195CA9] in "TES4FGC05Stone" [QUST 01035717]
     1: "I've only got one more thing on my plate for you, but it's an important one. The Stone of St. Alessia has been stolen from the Bruma Chapel."
 
-[INFO 0103571C] in "TES4contract_35713" [DIAL 01195CAA] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0103571C] in "SKYBFGC01ContractTopic" [DIAL 01195CAA] in "SKYBFGC01" [QUST 01035713]
     1: "A contract for you? I think I've got something that suits your experience. Arvena Thelas has some problem with rats in her house."
 
 [INFO 01071E96] in "TES4contract_35714" [DIAL 01195CAB] in "TES4FGC02Protect" [QUST 01035714]
@@ -52882,37 +52881,37 @@
 [INFO 01023E73] in "TES4contract_23dd7" [DIAL 01195CB3] in "TES4Dark04ExecutionFIN" [QUST 01023DD7]
     1: "We're usually called upon to take a life, but not this time. This contract requires us to stage the assassination of a marked man. Are you ready?"
 
-[INFO 01023E70] in "TES4contract_232d1" [DIAL 01195CB4] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 01023E70] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
     1: "You are to travel to Bruma, enter the house of the Wood Elf Baenlin, and kill him. It should look like an accident. I'm sure you can handle it."
 
-[INFO 01023419] in "TES4contract_232d1" [DIAL 01195CB4] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 01023419] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
     1: "The manservant's name is Gromm, you say? Sounds like a Nord. Probably a big one. If he catches you, get ready for a serious fight. "
 
-[INFO 010251B1] in "TES4contract_232d1" [DIAL 01195CB4] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 010251B1] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
     1: "What's the matter? You can't kill an old man? Want Gogron to hold your hand? You make me sick!"
 
-[INFO 010251B4] in "TES4contract_232d1" [DIAL 01195CB4] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 010251B4] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
     1: "If the target is old and weak, as you say, then his manservant is sure to be quite the opposite. Best stay out of his way."
 
-[INFO 010251B5] in "TES4contract_232d1" [DIAL 01195CB4] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 010251B5] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
     1: "I could help you, yes. But I won't. Your failure will give me much joy."
 
-[INFO 010251BD] in "TES4contract_232d1" [DIAL 01195CB4] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 010251BD] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
     1: "Yes, you'll find that some jobs require you to terminate a mark in a specific way. It's well worth the trouble, considering how good the bonuses are."
 
-[INFO 010251BF] in "TES4contract_232d1" [DIAL 01195CB4] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 010251BF] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
     1: "This contract requires stealth and subtlety. You possess neither. When you fail, I will gladly take your place."
 
-[INFO 010251C5] in "TES4contract_232d1" [DIAL 01195CB4] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 010251C5] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
     1: "How do you plan on entering this man's house? Through the front door? Be smart and look for a more inconspicuous way in, like a cellar entrance."
 
-[INFO 010251C7] in "TES4contract_232d1" [DIAL 01195CB4] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 010251C7] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
     1: "That manservant is going to squash you like a bug! I can't wait to see what's left of you."
 
-[INFO 010251CD] in "TES4contract_232d1" [DIAL 01195CB4] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 010251CD] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
     1: "If things go badly, forgo the plan and simply kill the mark any way you can. You'll lose the bonus, but at least the contract will be fulfilled. "
 
-[INFO 010251D1] in "TES4contract_232d1" [DIAL 01195CB4] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 010251D1] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
     1: "For the love of Sithis, you have to kill a feeble old man. Is that too much for you to handle?"
 
 [INFO 01023E47] in "TES4contract_232d0" [DIAL 01195CB5] in "TES4Dark02WateryFIN" [QUST 010232D0]
@@ -58418,17 +58417,17 @@
 [INFO 0118D92A] in "TES4SQ08Wine_177a32" [DIAL 01195DEC] in "TES4SQFIN" [QUST 01177A32]
     1: "If I'm to buy the wine from you, you need to have it with you."
 
-[INFO 0118D924] in "TES4SQ08Wine_185fed" [DIAL 01195DED] in "TES4SQ08" [QUST 01185FED]
+[INFO 0118D924] in "SKYBSQ08WineTopic" [DIAL 01195DED] in "SKYBSQ08" [QUST 01185FED]
     1: "I'm at a loss for words. You actually found six!"
     2: "These will hold an honored place in my collection! I don't know what else to say but thank you."
     3: "Oh! I almost forgot. Here's your finder's fee. Worth every single coin, I assure you."
     4: "I'll tell you what else I'll do since you seem so resourceful. If you find any more bottles of the wine, I'll gladly pay you well for them."
 
-[INFO 0118D92B] in "TES4SQ08Wine_185fed" [DIAL 01195DED] in "TES4SQ08" [QUST 01185FED]
+[INFO 0118D92B] in "SKYBSQ08WineTopic" [DIAL 01195DED] in "SKYBSQ08" [QUST 01185FED]
     1: "By the Divines! You found some? Fantastic!"
     2: "Hang onto it for now. I must have six before I'll be truly satisfied. Then I'll have more than anyone else in Cyrodiil!"
 
-[INFO 0118D92D] in "TES4SQ08Wine_185fed" [DIAL 01195DED] in "TES4SQ08" [QUST 01185FED]
+[INFO 0118D92D] in "SKYBSQ08WineTopic" [DIAL 01195DED] in "SKYBSQ08" [QUST 01185FED]
     1: "Yes actually, I'm quite fond of collecting all manners of wines from all over Tamriel."
     2: "But one vintage continues to elude me; Shadowbanish Wine. How I'd love to add it to my collection."
     3: "Say, that gives me an idea. You look like the adventuring type. If you can retrieve six bottles of Shadowbanish Wine, I'll gladly pay you well."
@@ -59991,14 +59990,23 @@
 [INFO 01036649] in "TES4GREETING_1e72b_Block" [DIAL 01195EC2] in "TES4MQ09" [QUST 0101E72B]
     1: "Have you seen Alain or Valdemar? Rielus fell in the lower chamber. We were separated ... the fog blinded us ..."
 
-[INFO 01036619] in "TES4GREETING_35713_Block" [DIAL 01195EC4] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 01036616] in "SKYBFGC01GreetingBlockTopic" [DIAL 01195EC4] in "SKYBFGC01" [QUST 01035713]
+    1: "So, you didn't sell me out. I appreciate that. Well, I said I'd make it worth your while, so let me teach you a little something."
+
+[INFO 01036619] in "SKYBFGC01GreetingBlockTopic" [DIAL 01195EC4] in "SKYBFGC01" [QUST 01035713]
     1: "Yes? What can I do for you?"
 
-[INFO 0103661D] in "TES4GREETING_35713_Block" [DIAL 01195EC4] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 0103661D] in "SKYBFGC01GreetingBlockTopic" [DIAL 01195EC4] in "SKYBFGC01" [QUST 01035713]
     1: "So, did you follow her? She's behind it, isn't she? Tell me what you found out!"
 
-[INFO 01036622] in "TES4GREETING_35713_Block" [DIAL 01195EC4] in "TES4FGC01Rats" [QUST 01035713]
+[INFO 01036622] in "SKYBFGC01GreetingBlockTopic" [DIAL 01195EC4] in "SKYBFGC01" [QUST 01035713]
     1: "Well, what have you found? Did you take care of my babies? What was going on down there?"
+
+[INFO 0103661A] in "SKYBFGC01GreetingBlockTopic" [DIAL 01195EC4] in "SKYBFGC01" [QUST 01035713]
+    1: "I think that'll be all of them. Can't imagine more in this area. You can go tell Arvena this is all taken care of. Good hunting."
+
+[INFO 0103661B] in "SKYBFGC01GreetingBlockTopic" [DIAL 01195EC4] in "SKYBFGC01" [QUST 01035713]
+    1: "If they're out here, they'll be in this area. I can't imagine there are more than four of them. Let's take care of this."
 
 [INFO 01211224] in "TES4GREETING_2466e_Block" [DIAL 01195EC6] in "TES4Charactergen" [QUST 0102466E]
     1: "You must get the Amulet to Jauffre. Take no chances, but proceed to Weynon Priory immediately. Got it?"
@@ -60374,7 +60382,7 @@
 [INFO 010844BB] in "TES4GREETING_2ab4a_Block" [DIAL 01195EF6] in "TES4MS21" [QUST 0102AB4A]
     1: "Yes? You have something of interest to me?"
 
-[INFO 0102D921] in "TES4GREETING_232d1_Block" [DIAL 01195EF8] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 0102D921] in "TES4GREETING_232d1_Block" [DIAL 01195EF8] in "SKYBDB03" [QUST 010232D1]
     1: "Huh? You're not Gromm. Who are you? Why are you in my home?"
 
 [INFO 010277ED] in "TES4GREETING_28c05_Block" [DIAL 01195EFA] in "TES4MG05A" [QUST 01028C05]
@@ -61058,18 +61066,18 @@
 [INFO 01049881] in [DIAL 0121030E] in "TES4Dark02Watery" [QUST 010232CF]
     1: "[Knock knock knock!] Captain! Captain Tussaud! Are you all right sir? We... We heard a clamor. Captain? We're coming in!"
 
-[INFO 01023F7C] in "TES4Dark03Finish" [DIAL 01210314] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 01023F7C] in "SKYBDB03FinishTopic" [DIAL 01210314] in "SKYBDB03" [QUST 010232D1]
     1: "So, the accident has been staged, and Baenlin lies dead. Well done! You have more than earned your reward and bonus. "
     2: "I present to you this dagger. It's an enchanted blade, known as Sufferthorn. Its prick is deadly, I assure you."
     3: "Yes, you are quite an asset to this Sanctuary. In fact, I believe you are ready for advancement. I hereby appoint you Slayer. Well done! "
 
-[INFO 01023F7B] in "TES4Dark03Finish" [DIAL 01210314] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 01023F7B] in "SKYBDB03FinishTopic" [DIAL 01210314] in "SKYBDB03" [QUST 010232D1]
     1: "Baenlin is dead, yes, but you did not fulfill the contract precisely as directed. I will grant your reward of gold, but the bonus is forfeit."
 
-[INFO 01210317] in "TES4Dark03FinishContinued" [DIAL 01210315] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 01210317] in "SKYBDB03FinishContinuedTopic" [DIAL 01210315] in "SKYBDB03" [QUST 010232D1]
     1: "Now go, child of Sithis. Go and rest. You'll need it."
 
-[INFO 01210316] in "TES4Dark03FinishContinued" [DIAL 01210315] in "TES4Dark03Accidents" [QUST 010232D1]
+[INFO 01210316] in "SKYBDB03FinishContinuedTopic" [DIAL 01210315] in "SKYBDB03" [QUST 010232D1]
     1: "Despite this misfortune, you are ready for advancement. I appoint you Slayer for the Dark Brotherhood. Now go, and continue to serve Sithis well."
 
 [INFO 010251B9] in "TES4Dark04Finish" [DIAL 01210320] in "TES4Dark04Execution" [QUST 010239E1]

@@ -133,7 +133,7 @@ namespace VoiceRenameDetectorFromDump
     /// the same value for <paramref name="first"/>. There should only be one
     /// entry for each value of <paramref name="second"/>.
     /// </remarks>
-    private ListViewItem MakeEqualResponseListViewItem(
+    private static ListViewItem MakeEqualResponseListViewItem(
       Response first, Response second)
     {
       ArgumentNullException.ThrowIfNull(first);
