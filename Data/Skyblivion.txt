@@ -6604,13 +6604,13 @@
     2: "Also, he seemed sober, which is a refreshing change. Usually Reynald is stumbling around Chorrol drunk as can be."
     3: "Very odd, but then, it's really none of my business."
 
-[INFO 01023F3D] in "SKYBDB03Choice1CTopic" [DIAL 01023F12] in "SKYBDB03" [QUST 010232D1]
+[INFO 01023F3D] in "SKYBDark03Choice1CTopic" [DIAL 01023F12] in "SKYBDark03" [QUST 010232D1]
     1: "Why are you here? What do you want? Get out of my house!"
 
-[INFO 01023F3F] in "SKYBDB03Choice1BTopic" [DIAL 01023F13] in "SKYBDB03" [QUST 010232D1]
+[INFO 01023F3F] in "SKYBDark03Choice1BTopic" [DIAL 01023F13] in "SKYBDark03" [QUST 010232D1]
     1: "The Night Mother? What's this all about? I... I think you should leave now. You hear me? Get out! Gromm! Gromm! we have an intruder! "
 
-[INFO 01023F3E] in "SKYBDB03Choice1ATopic" [DIAL 01023F14] in "SKYBDB03" [QUST 010232D1]
+[INFO 01023F3E] in "SKYBDark03Choice1ATopic" [DIAL 01023F14] in "SKYBDark03" [QUST 010232D1]
     1: "Dead? Me? There... there must be some mistake.... I'm just an old man! Just an old man!"
 
 [INFO 01023F3B] in "TES4Dark01Choice1C" [DIAL 01023F15] in "TES4Dark01Knife" [QUST 010224EB]
@@ -12006,10 +12006,10 @@
 [INFO 010836D2] in "TES4Advancement" [DIAL 01034EA7] in "TES4MG00General" [QUST 0102D2DE]
     1: "You do not yet qualify for further advancement in the guild."
 
-[INFO 0103559F] in "TES4MSShadowscaleChoice2B" [DIAL 01035581] in "TES4MSShadowscale" [QUST 01035589]
+[INFO 0103559F] in "SKYBDBShadowscaleChoice2BTopic" [DIAL 01035581] in "SKYBDBShadowscale" [QUST 01035589]
     1: "Ha! I expected as much from a Dark Brotherhood lapdog! I may not survive this fight, but I'll not make it easy for you!"
 
-[INFO 0103559E] in "TES4MSShadowscaleChoice2A" [DIAL 01035582] in "TES4MSShadowscale" [QUST 01035589]
+[INFO 0103559E] in "SKYBDBShadowscaleChoice2ATopic" [DIAL 01035582] in "SKYBDBShadowscale" [QUST 01035589]
     1: "You show unexpected mercy. For that I am thankful. My treasure is hidden in a hollowed-out rock near my campfire. It's yours."
     2: "Oh yes, I suppose Teinaava wants proof that I'm dead, eh? Let me guess -- my heart? I suggest you take the heart of the dead Argonian Agent."
     3: "His body is around here somewhere. Present the Agent's heart to Teinaava as proof, and he'll be none the wiser."
@@ -20119,148 +20119,148 @@
 [INFO 01085A63] in "TES4Dark08Choice6A" [DIAL 01085A62] in "TES4Dark08Whodunit" [QUST 010253BF]
     1: "He... he did? Oh my goodness, what should I do? Should I talk to him? Or maybe play hard to get? Or should I, you know? Or would that be too forward?"
 
-[INFO 0108656E] in "TES4MazogaTalk02" [DIAL 01086025] in "TES4MS91" [QUST 0108596C]
+[INFO 0108656E] in "SKYBMS91MazogaTalk02" [DIAL 01086025] in "SKYBMS91" [QUST 0108596C]
     1: "I want to go to Fisherman's Rock. Where's that?"
 
-[INFO 010860E2] in "TES4AngryMazoga02" [DIAL 01086027] in "TES4MS91" [QUST 0108596C]
+[INFO 010860E2] in "SKYBMS91AngryMazoga02" [DIAL 01086027] in "SKYBMS91" [QUST 0108596C]
     2: "I should have told you. It was not your fault. An Orc pays her debts. You helped me, so I forgive you. And thank you, too."
 
 [INFO 010860E4] in "TES4MazogasStory" [DIAL 01086028] in "TES4MS92" [QUST 0108596D]
     1: "When I saw my friend killed, I swore I'd be a true knight and right all wrongs. So now I gotta do some good deeds."
     2: "I don't know much about being a knight. But I'm gonna learn. Say. You did ME a good deed. You oughta be a real knight yourself."
 
-[INFO 010860E1] in "TES4AngryMazoga01" [DIAL 01086029] in "TES4MS91" [QUST 0108596C]
+[INFO 010860E1] in "SKYBMS91AngryMazoga01" [DIAL 01086029] in "SKYBMS91" [QUST 0108596C]
     1: "No. You didn't know. It was my fault. But now you know everything. And you helped me, and I won't forget."
 
-[INFO 010860DF] in "TES4AngryMazoga" [DIAL 0108602A] in "TES4MS91" [QUST 0108596C]
+[INFO 010860DF] in "SKYBMS91AngryMazoga" [DIAL 0108602A] in "SKYBMS91" [QUST 0108596C]
     1: "Mogens Wind-Shifter! He killed Ra'vindra, my best friend. So I swore a knight's oath of vengeance... and you've spoiled it!"
 
-[INFO 010860E0] in "TES4AngryMazoga" [DIAL 0108602A] in "TES4MS91" [QUST 0108596C]
+[INFO 010860E0] in "SKYBMS91AngryMazoga" [DIAL 0108602A] in "SKYBMS91" [QUST 0108596C]
     1: "I'm so mad, I could kill you!"
 
-[INFO 010860DE] in "TES4GreetingMS91KilledFour" [DIAL 0108602B] in "TES4MS91" [QUST 0108596C]
+[INFO 010860DE] in "SKYBMS91GreetingKilledFour" [DIAL 0108602B] in "SKYBMS91" [QUST 0108596C]
     1: "You idiot! You ruined everything!"
 
-[INFO 010860DA] in "TES4MS91Follow" [DIAL 0108602C] in "TES4MS91" [QUST 0108596C]
+[INFO 010860DA] in "SKYBMS91Follow" [DIAL 0108602C] in "SKYBMS91" [QUST 0108596C]
     1: "Get moving! I'm right behind you..."
 
-[INFO 010860D9] in "TES4MS91Wait" [DIAL 0108602D] in "TES4MS91" [QUST 0108596C]
+[INFO 010860D9] in "SKYBMS91Wait" [DIAL 0108602D] in "SKYBMS91" [QUST 0108596C]
     1: "Come on! What's the hold-up?"
 
-[INFO 010860D7] in "TES4FishermansRockFollow" [DIAL 0108602E] in "TES4MS91" [QUST 0108596C]
+[INFO 010860D7] in "SKYBMS91FishermansRockFollow" [DIAL 0108602E] in "SKYBMS91" [QUST 0108596C]
     1: "The Argonian says it's north of Leyawiin, about six hours walk, on the east bank of the Niben. Let's get moving."
 
-[INFO 010860D6] in "TES4FishermansRockLater" [DIAL 0108602F] in "TES4MS91" [QUST 0108596C]
+[INFO 010860D6] in "SKYBMS91FishermansRockLater" [DIAL 0108602F] in "SKYBMS91" [QUST 0108596C]
     1: "Big help you are.... All right. Maybe I'll wait here. And maybe not."
 
-[INFO 010860D5] in "TES4FishermansRockTopicWhy" [DIAL 01086030] in "TES4MS91" [QUST 0108596C]
+[INFO 010860D5] in "SKYBMS91FishermansRockTopicWhy" [DIAL 01086030] in "SKYBMS91" [QUST 0108596C]
     1: "This guy, Mogens Wind-Shifter, he camps at Fisherman's Rock. So you take me there, and I talk to him, and then we see what happens."
     4: "You hear me? I TALK to him first. No smashing in his teeth or chopping off his head! Understand?"
 
-[INFO 010860D4] in "TES4FishermansRockTopicYes" [DIAL 01086031] in "TES4MS91" [QUST 0108596C]
+[INFO 010860D4] in "SKYBMS91FishermansRockTopicYes" [DIAL 01086031] in "SKYBMS91" [QUST 0108596C]
     1: "Take me there. Now."
 
-[INFO 010860D3] in "TES4FishermansRockTopicNo" [DIAL 01086032] in "TES4MS91" [QUST 0108596C]
+[INFO 010860D3] in "SKYBMS91FishermansRockTopicNo" [DIAL 01086032] in "SKYBMS91" [QUST 0108596C]
     1: "The Argonian said Fisherman's Rock is north of Leyawiin on a point of land on the east shore of the Niben. Take me there. Now."
 
-[INFO 010860D2] in "TES4FishermansRockTopic" [DIAL 01086033] in "TES4MS91" [QUST 0108596C]
+[INFO 010860D2] in "SKYBMS91FishermansRockTopic" [DIAL 01086033] in "SKYBMS91" [QUST 0108596C]
     1: "Are you going to take me to Fisherman's Rock?"
 
-[INFO 010860D8] in "TES4FishermansRockTopic" [DIAL 01086033] in "TES4MS91" [QUST 0108596C]
+[INFO 010860D8] in "SKYBMS91FishermansRockTopic" [DIAL 01086033] in "SKYBMS91" [QUST 0108596C]
     1: "Weebam-Na won't take me to Fisherman's Rock. You know where it is?"
 
-[INFO 010860CE] in "TES4WeebamNaNo" [DIAL 01086036] in "TES4MS91" [QUST 0108596C]
+[INFO 010860CE] in "SKYBMS91WeebamNaNo" [DIAL 01086036] in "SKYBMS91" [QUST 0108596C]
     1: "Then go find him. Tell him I want to see him right now. I'll meet him here."
 
-[INFO 010860CC] in "TES4WeebamNaYes" [DIAL 01086037] in "TES4MS91" [QUST 0108596C]
+[INFO 010860CC] in "SKYBMS91WeebamNaYes" [DIAL 01086037] in "SKYBMS91" [QUST 0108596C]
     1: "Go tell him I want to see him right now. I'll meet him here."
 
-[INFO 010860CB] in "TES4WeebamNaTopic" [DIAL 01086038] in "TES4MS91" [QUST 0108596C]
+[INFO 010860CB] in "SKYBMS91WeebamNaTopic" [DIAL 01086038] in "SKYBMS91" [QUST 0108596C]
     1: "Go tell him I want to see him. Here. Right now."
 
-[INFO 010860CD] in "TES4WeebamNaTopic" [DIAL 01086038] in "TES4MS91" [QUST 0108596C]
+[INFO 010860CD] in "SKYBMS91WeebamNaTopic" [DIAL 01086038] in "SKYBMS91" [QUST 0108596C]
     1: "Do you know where Weebam-Na is? I hear he's a hunter, knows all about the woods around here. "
 
-[INFO 010860CA] in "TES4knightDontLook" [DIAL 01086039] in "TES4MS91" [QUST 0108596C]
+[INFO 010860CA] in "SKYBMS91KnightDontLook" [DIAL 01086039] in "SKYBMS91" [QUST 0108596C]
     1: "You don't know anything about being a knight, so shut up about it."
     2: "There's an Argonian named Weebam-Na in town. Go get him for me."
 
-[INFO 010860C9] in "TES4KnightNoSir" [DIAL 0108603A] in "TES4MS91" [QUST 0108596C]
+[INFO 010860C9] in "SKYBMS91KnightNoSir" [DIAL 0108603A] in "SKYBMS91" [QUST 0108596C]
     1: "All right, then. There's an Argonian named Weebam-Na in town. Go get him for me."
 
-[INFO 010860C7] in "TES4MazogaSayNothing2" [DIAL 0108603B] in "TES4MS91" [QUST 0108596C]
+[INFO 010860C7] in "SKYBMS91MazogaSayNothing2" [DIAL 0108603B] in "SKYBMS91" [QUST 0108596C]
     1: "Go. You're not worth the trouble."
 
-[INFO 010860C6] in "TES4MazogaSorry" [DIAL 0108603C] in "TES4MS91" [QUST 0108596C]
+[INFO 010860C6] in "SKYBMS91MazogaSorry" [DIAL 0108603C] in "SKYBMS91" [QUST 0108596C]
     1: "All right, then. Just don't forget I'm a knight."
 
-[INFO 010860C8] in "TES4KnightTopic" [DIAL 0108603D] in "TES4MS91" [QUST 0108596C]
+[INFO 010860C8] in "SKYBMS91KnightTopic" [DIAL 0108603D] in "SKYBMS91" [QUST 0108596C]
     1: "I'm a FREE knight. I don't have a lord. You got a problem with that?"
 
-[INFO 010860C4] in "TES4MazogaYes" [DIAL 0108603E] in "TES4MS91" [QUST 0108596C]
+[INFO 010860C4] in "SKYBMS91MazogaYes" [DIAL 0108603E] in "SKYBMS91" [QUST 0108596C]
     1: "All right, then. Just don't forget."
 
-[INFO 010860C3] in "TES4MazogaSayNothing1" [DIAL 0108603F] in "TES4MS91" [QUST 0108596C]
+[INFO 010860C3] in "SKYBMS91MazogaSayNothing1" [DIAL 0108603F] in "SKYBMS91" [QUST 0108596C]
     2: "You won't say 'Sir' to me? You are afraid to speak. It would shame me to fight a gutless thing like you. So go away."
 
-[INFO 010860C2] in "TES4MazogaWoman" [DIAL 01086040] in "TES4MS91" [QUST 0108596C]
+[INFO 010860C2] in "SKYBMS91MazogaWoman" [DIAL 01086040] in "SKYBMS91" [QUST 0108596C]
     1: "I'm a knight. So say, 'Sir'. Say, 'Yes, Sir Mazoga'."
 
 [INFO 010908D6] in "TES4KnightsErrant" [DIAL 01086045] in "TES4MS92" [QUST 0108596D]
     1: "I have created a chivalric Order of the White Stallion. Find and kill the leader of the Black Bow Bandits, the Orc named Black Brugo."
     2: "If you succeed, I will bestow on both you and Mazoga the titles of Knights-Errant of the White Stallion for your service to Leyawiin."
 
-[INFO 010860BA] in "TES4ServicetoLeyawiinTopic08" [DIAL 01086047] in "TES4MS91" [QUST 0108596C]
+[INFO 010860BA] in "SKYBMS91ServicetoLeyawiinTopic08" [DIAL 01086047] in "SKYBMS91" [QUST 0108596C]
     1: "Such vengeance is a noble deed. Leyawiin thanks you for your service. And I have a fitting reward for such noble deeds."
     2: "I address my offer to you and your friend. Would you like to become knights-errant?"
 
-[INFO 010860B9] in "TES4ServicetoLeyawiinTopic07" [DIAL 01086048] in "TES4MS91" [QUST 0108596C]
+[INFO 010860B9] in "SKYBMS91ServicetoLeyawiinTopic07" [DIAL 01086048] in "SKYBMS91" [QUST 0108596C]
     1: "Then guide her to Fisherman's Rock. Please."
 
-[INFO 010860B8] in "TES4ServicetoLeyawiinTopic06" [DIAL 01086049] in "TES4MS91" [QUST 0108596C]
+[INFO 010860B8] in "SKYBMS91ServicetoLeyawiinTopic06" [DIAL 01086049] in "SKYBMS91" [QUST 0108596C]
     1: "Then you must persuade him."
 
-[INFO 010860B7] in "TES4ServicetoLeyawiinTopic05" [DIAL 0108604A] in "TES4MS91" [QUST 0108596C]
+[INFO 010860B7] in "SKYBMS91ServicetoLeyawiinTopic05" [DIAL 0108604A] in "SKYBMS91" [QUST 0108596C]
     1: "Then you will get Weebam-Na for her. The Argonian is a well-known hunter; he has a house in town."
 
-[INFO 010860B6] in "TES4ServicetoLeyawiinTopic04" [DIAL 0108604B] in "TES4MS91" [QUST 0108596C]
+[INFO 010860B6] in "SKYBMS91ServicetoLeyawiinTopic04" [DIAL 0108604B] in "SKYBMS91" [QUST 0108596C]
     1: "Then I await your report."
 
-[INFO 01086069] in "TES4MazogatheOrcTopic" [DIAL 01086054] in "TES4MS91" [QUST 0108596C]
+[INFO 01086069] in "SKYBMS91MazogatheOrcTopic" [DIAL 01086054] in "SKYBMS91" [QUST 0108596C]
     1: "She's got terrible manners. Being her friend may be a lot of work. But my sniffer says she might be worth it."
 
-[INFO 010860C1] in "TES4MazogatheOrcTopic" [DIAL 01086054] in "TES4MS91" [QUST 0108596C]
+[INFO 010860C1] in "SKYBMS91MazogatheOrcTopic" [DIAL 01086054] in "SKYBMS91" [QUST 0108596C]
     1: "That's 'Sir Mazoga' to you..."
 
-[INFO 010860C5] in "TES4MazogatheOrcTopic" [DIAL 01086054] in "TES4MS91" [QUST 0108596C]
+[INFO 010860C5] in "SKYBMS91MazogatheOrcTopic" [DIAL 01086054] in "SKYBMS91" [QUST 0108596C]
     1: "Yes. I'm an Orc. I was born under a rock, and I have no parents. So I don't need a family name."
     2: "I guess you don't know how to talk to a knight. So I'll teach you. Say, 'Yes, Sir Mazoga'."
 
-[INFO 01086576] in "TES4MogensTalk03" [DIAL 01086554] in "TES4MS91" [QUST 0108596C]
+[INFO 01086576] in "SKYBMS91MogensTalk03" [DIAL 01086554] in "SKYBMS91" [QUST 0108596C]
     1: "I don't know what you're talking about."
 
-[INFO 01086575] in "TES4MogensTalk02" [DIAL 01086555] in "TES4MS91" [QUST 0108596C]
+[INFO 01086575] in "SKYBMS91MogensTalk02" [DIAL 01086555] in "SKYBMS91" [QUST 0108596C]
     1: "I'm Mazoga. You killed my friend, Ra'vindra. "
 
-[INFO 01086574] in "TES4MogensTalk01" [DIAL 01086556] in "TES4MS91" [QUST 0108596C]
+[INFO 01086574] in "SKYBMS91MogensTalk01" [DIAL 01086556] in "SKYBMS91" [QUST 0108596C]
     1: "No. Who are you?"
 
-[INFO 01086573] in "TES4MazogaTalk07" [DIAL 01086557] in "TES4MS91" [QUST 0108596C]
+[INFO 01086573] in "SKYBMS91MazogaTalk07" [DIAL 01086557] in "SKYBMS91" [QUST 0108596C]
     1: "Then, if you won't tell me why, I won't take you anywhere."
 
-[INFO 01086572] in "TES4MazogaTalk06" [DIAL 01086558] in "TES4MS91" [QUST 0108596C]
+[INFO 01086572] in "SKYBMS91MazogaTalk06" [DIAL 01086558] in "SKYBMS91" [QUST 0108596C]
     1: "That's my business."
 
-[INFO 01086571] in "TES4MazogaTalk05" [DIAL 01086559] in "TES4MS91" [QUST 0108596C]
+[INFO 01086571] in "SKYBMS91MazogaTalk05" [DIAL 01086559] in "SKYBMS91" [QUST 0108596C]
     1: "Why?"
 
-[INFO 01086570] in "TES4MazogaTalk04" [DIAL 0108655A] in "TES4MS91" [QUST 0108596C]
+[INFO 01086570] in "SKYBMS91MazogaTalk04" [DIAL 0108655A] in "SKYBMS91" [QUST 0108596C]
     1: "Take me there. Now. I'm in a hurry."
 
-[INFO 0108656F] in "TES4MazogaTalk03" [DIAL 0108655B] in "TES4MS91" [QUST 0108596C]
+[INFO 0108656F] in "SKYBMS91MazogaTalk03" [DIAL 0108655B] in "SKYBMS91" [QUST 0108596C]
     1: "Fisherman's Rock is north of Leyawiin, about six hours walk, on a point of land on the eastern shore of the Niben."
 
-[INFO 0108656D] in "TES4MazogaTalk01" [DIAL 0108655C] in "TES4MS91" [QUST 0108596C]
+[INFO 0108656D] in "SKYBMS91MazogaTalk01" [DIAL 0108655C] in "SKYBMS91" [QUST 0108596C]
     1: "Yes."
 
 [INFO 01086733] in "TES4Dark19StatueTalk4" [DIAL 01086705] in "TES4Dark19Whispers" [QUST 01030064]
@@ -21334,7 +21334,7 @@
     3: "This is indeed a dark day for all of us left. But I thank you for risking your own life to help us."
     4: "Did you find the Count's ring, by any chance?"
 
-[INFO 01091CC6] in "TES4FishermansRockTopicSmashing" [DIAL 01091CC4] in "TES4MS91" [QUST 0108596C]
+[INFO 01091CC6] in "SKYBMS91FishermansRockTopicSmashing" [DIAL 01091CC4] in "SKYBMS91" [QUST 0108596C]
     1: "Could be. You know how it is. But not until I'm finished talking!"
 
 [INFO 0109215D] in "TES4MS11StillNone" [DIAL 0109215B] in "TES4MS11" [QUST 01017839]
@@ -21383,16 +21383,16 @@
 [INFO 01092D81] in "TES4MQ02JauffreA1" [DIAL 01092D80] in "TES4MQ02" [QUST 0101E724]
     1: "This cannot be. No one but the Emperor is permitted to handle the Amulet. Let me see it."
 
-[INFO 0109381F] in "TES4GreetingMazoga04" [DIAL 01093816] in "TES4MS91" [QUST 0108596C]
+[INFO 0109381F] in "SKYBMS91GreetingMazoga04" [DIAL 01093816] in "SKYBMS91" [QUST 0108596C]
     1: "The Count? Then I can talk to you. I'm Mazoga."
 
-[INFO 0109381E] in "TES4GreetingMazoga03" [DIAL 01093817] in "TES4MS91" [QUST 0108596C]
+[INFO 0109381E] in "SKYBMS91GreetingMazoga03" [DIAL 01093817] in "SKYBMS91" [QUST 0108596C]
     1: "Then go away."
 
-[INFO 0109381D] in "TES4GreetingMazoga02" [DIAL 01093818] in "TES4MS91" [QUST 0108596C]
+[INFO 0109381D] in "SKYBMS91GreetingMazoga02" [DIAL 01093818] in "SKYBMS91" [QUST 0108596C]
     1: "You're a liar. You don't even look like a Count."
 
-[INFO 0109381C] in "TES4GreetingMazoga01" [DIAL 01093819] in "TES4MS91" [QUST 0108596C]
+[INFO 0109381C] in "SKYBMS91GreetingMazoga01" [DIAL 01093819] in "SKYBMS91" [QUST 0108596C]
     1: "You're a liar. The Count is a man. And you aren't a man."
 
 [INFO 01093CD6] in "TES4MS26ItiusAccuses" [DIAL 01093CC5] in "TES4MS26" [QUST 01035CA8]
@@ -22378,6 +22378,298 @@
 
 [INFO 010E42B4] in "SKYBFGC01RatsQuillWeaveGreetFinish" [DIAL 010E42B3] in "SKYBFGC01" [QUST 01035713]
     1: "You've got to be light on your feet to make it around here, and that's something I'm good at. Maybe you can be, too. Take care."
+
+[INFO 010F93E1] in "SKYBMS91BlockGreetFinish" [DIAL 010F93E0] in "SKYBMS91" [QUST 0108596C]
+    1: "Perhaps you would like to do a service for County Leyawiin?"
+
+[INFO 010F93E2] in "SKYBMS91BlockGreetFinish" [DIAL 010F93E0] in "SKYBMS91" [QUST 0108596C]
+    1: "Take what you want from the dead. I came to keep my oath, and now I'm done."
+
+[INFO 010F93E9] in "TES4TrainingAlterationForceGreetTopic" [DIAL 010F93E8] in "TES4TrainingAlteration" [QUST 0118BA2C]
+    1: "I'm afraid you have failed the test. I warned you to stay close. We can try again some other time, perhaps."
+
+[INFO 010F93ED] in "TES4TrainingAlterationGoodbyeBranchTopic" [DIAL 010F93EC] in "TES4TrainingAlteration" [QUST 0118BA2C]
+    1: " "
+
+[INFO 010F93EA] in "TES4TrainingAlterationSuccessTopic" [DIAL 010F93EF] in "TES4TrainingAlteration" [QUST 0118BA2C]
+    1: "You have passed your test. Well done. I shall be more than happy to train you in the skill of Alteration from now on."
+
+[INFO 010F940E] in "TES4TrainingAthleticsBoughtPerk" [DIAL 010F940D] in "TES4TrainingAthletics" [QUST 0118BA2E]
+    1: " "
+
+[INFO 010F940F] in "TES4TrainingAthleticsBoughtPerk" [DIAL 010F940D] in "TES4TrainingAthletics" [QUST 0118BA2E]
+    1: " "
+
+[INFO 010F9410] in "TES4TrainingAthleticsBoughtPerk" [DIAL 010F940D] in "TES4TrainingAthletics" [QUST 0118BA2E]
+    1: " "
+
+[INFO 010F9438] in "TES4TrainingH2HSparringOverTopic" [DIAL 010F9437] in "TES4TrainingHandtoHand" [QUST 0118BA33]
+    1: "Not bad.... Not bad at all! Okay, you've definitely got some potential. I'll teach you what I know."
+
+[INFO 010F9439] in "TES4TrainingH2HSparringOverTopic" [DIAL 010F9437] in "TES4TrainingHandtoHand" [QUST 0118BA33]
+    1: "That was disappointing at best. I was hoping for more from you."
+
+[INFO 010F943A] in "TES4TrainingH2HSparringOverTopic" [DIAL 010F9437] in "TES4TrainingHandtoHand" [QUST 0118BA33]
+    1: "Hey! What did I tell you about weapons! That's it; we're done."
+
+[INFO 010F9463] in "TES4TrainingHandtoHandBoughtTopic" [DIAL 010F9462] in "TES4TrainingHandtoHand" [QUST 0118BA33]
+    1: " "
+
+[INFO 010F9464] in "TES4TrainingHandtoHandBoughtTopic" [DIAL 010F9462] in "TES4TrainingHandtoHand" [QUST 0118BA33]
+    1: " "
+
+[INFO 010F9465] in "TES4TrainingHandtoHandBoughtTopic" [DIAL 010F9462] in "TES4TrainingHandtoHand" [QUST 0118BA33]
+    1: " "
+
+[INFO 010F9468] in "TES4TrainingHandtoHandGoodbyeTopic" [DIAL 010F9467] in "TES4TrainingHandtoHand" [QUST 0118BA33]
+    1: " "
+
+[INFO 010F947E] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9482] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9483] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9480] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9481] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9484] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9485] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9486] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9487] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9488] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9489] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F948A] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F948B] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F948C] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F948D] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F948E] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F948F] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9490] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9491] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9492] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9493] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9494] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9495] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9496] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9497] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9498] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9499] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F949A] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F949C] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F949D] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F949E] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F949F] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F94A0] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F94A1] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F94A2] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F94A3] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F953A] in "TES4PerkInvestorBranchTopic" [DIAL 010F947D] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F953C] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F953D] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F953E] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F953F] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9540] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9541] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9542] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9543] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9544] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9545] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9546] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9547] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9548] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9549] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F954A] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F954B] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F954C] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F954D] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F954E] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F954F] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9550] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9551] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9552] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9553] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9554] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9555] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9556] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9557] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9558] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9559] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F955A] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F955B] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F955C] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F955D] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F955E] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F955F] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F9560] in "TES4PerkInvestorBranch2" [DIAL 010F953B] in "PerkInvestor" [QUST 000ABD94]
+    1: "I would gladly let you invest in my shop! The extra coin will allow me to purchase more goods from adventurers such as yourself."
+
+[INFO 010F956F] in "TES4TrainingMercantileBoughtGoodbye" [DIAL 010F956E] in "SKYBTrainingMercantile" [QUST 0118BA36]
+    1: " "
+
+[INFO 010F9570] in "TES4TrainingMercantileBoughtGoodbye" [DIAL 010F956E] in "SKYBTrainingMercantile" [QUST 0118BA36]
+    1: " "
+
+[INFO 010F9571] in "TES4TrainingMercantileBoughtGoodbye" [DIAL 010F956E] in "SKYBTrainingMercantile" [QUST 0118BA36]
+    1: " "
+
+[INFO 010F9597] in "TES4TrainingMysticismBoughtPerks" [DIAL 010F9596] in "SKYBTrainingMysticism" [QUST 0118BA37]
+    1: " "
+
+[INFO 010F9598] in "TES4TrainingMysticismBoughtPerks" [DIAL 010F9596] in "SKYBTrainingMysticism" [QUST 0118BA37]
+    1: " "
+
+[INFO 010F9646] in "TES4TrainingMysticismBoughtPerks" [DIAL 010F9596] in "SKYBTrainingMysticism" [QUST 0118BA37]
+    1: " "
+
+[INFO 0111B192] in "SKYBMS11GreetBlockFinish" [DIAL 0111B191] in "TES4MS11" [QUST 01017839]
+    1: "I thank you from the bottom of my heart. I hope that the amulet helps keep you safe on whatever roads you may travel."
+
+[INFO 0103842C] in "SKYBMS11CariusTopic" [DIAL 0111B194] in "TES4MS11" [QUST 01017839]
+    1: "I'm going to make arrangements for removal of the bodies and then I'll probably stay on guard here for a bit."
+    2: "We're afraid there may be retribution on Bradon's wife even though she had nothing to do with it. Vampires are a hated lot."
 
 [INFO 01126556] in "TES4WERoads04branchTopic" [DIAL 01126555] in "TES4WERoads04" [QUST 01126551]
     1: "Stay out of our way, Citizen!"
@@ -27874,24 +28166,11 @@
 [INFO 0103857F] in "TES4GREETING_17839" [DIAL 011958F1] in "TES4MS11" [QUST 01017839]
     1: "No time to talk now, you must hurry to Boreal Stone Cave!"
 
-[INFO 01038580] in "TES4GREETING_17839" [DIAL 011958F1] in "TES4MS11" [QUST 01017839]
-    1: "Just before I arrived here, I received a report from one of our scouts watching the roads."
-    2: "Raynil was spotted heading west out of Bruma. The scout tried to follow, but lost him in the mountains."
-    3: "The only cave to the west that comes close to the one described in Gelebourne's journal is Boreal Stone Cave. That must be where he's headed."
-    4: "You must get there before he acquires whatever artifact is being kept there and makes his escape."
-    5: "I'm keeping the city guard in Bruma, as Raynil doesn't know we're after him. If he sees a guard, he may panic and run."
-    6: "You're my only hope at the moment. Please, you have my authorization to do everything you can to bring him to justice."
-    7: "If he won't surrender, I think you know what to do. Hurry, I fear you have a day at the most to stop him."
-
 [INFO 01038581] in "TES4GREETING_17839" [DIAL 011958F1] in "TES4MS11" [QUST 01017839]
     1: "I must go and tell the guard. Please, meet me at Olav's in one hour."
 
 [INFO 01038429] in "TES4GREETING_17839" [DIAL 011958F1] in "TES4MS11" [QUST 01017839]
     1: "So, any new revelations in your... errr.... investigation?"
-
-[INFO 0103842C] in "TES4GREETING_17839" [DIAL 011958F1] in "TES4MS11" [QUST 01017839]
-    1: "I'm going to make arrangements for removal of the bodies and then I'll probably stay on guard here for a bit."
-    2: "We're afraid there may be retribution on Bradon's wife even though she had nothing to do with it. Vampires are a hated lot."
 
 [INFO 0103842D] in "TES4GREETING_17839" [DIAL 011958F1] in "TES4MS11" [QUST 01017839]
     1: "You're going to have to leave. This is a crime scene and no one other than ourselves or Raynil Dralas will be allowed access."
@@ -27913,11 +28192,6 @@
 
 [INFO 01038AFD] in "TES4GREETING_17839" [DIAL 011958F1] in "TES4MS11" [QUST 01017839]
     1: "It's so very nice to see you again."
-
-[INFO 01038B08] in "TES4GREETING_17839" [DIAL 011958F1] in "TES4MS11" [QUST 01017839]
-    1: "Here is the amulet back. It's as beautiful as it was the day I remember seeing it long ago. I want you to keep it, as I have no use for this anymore."
-    2: "I'm certain that's what I want, and I'm certain that's what Bradon would want."
-    3: "I thank you from the bottom of my heart. I hope that the amulet helps keep you safe on whatever roads you may travel."
 
 [INFO 01038AFF] in "TES4GREETING_17839" [DIAL 011958F1] in "TES4MS11" [QUST 01017839]
     1: "What news do you bring?"
@@ -29599,66 +29873,56 @@
 [INFO 01035F44] in "TES4GREETING_35f28" [DIAL 01195911] in "TES4MG10Vahtacen" [QUST 01035F28]
     1: "I have a new task for you, and I assure you there are no Necromancers involved."
 
-[INFO 01086058] in "TES4GREETING_8596c" [DIAL 01195912] in "TES4MS91" [QUST 0108596C]
-    1: "I'm Mogens Wind-Shifter. I'm having a look around. You mind?"
-
-[INFO 0108605B] in "TES4GREETING_8596c" [DIAL 01195912] in "TES4MS91" [QUST 0108596C]
-    1: "J'Baasha's an adventurer... just like you."
-
-[INFO 0108605C] in "TES4GREETING_8596c" [DIAL 01195912] in "TES4MS91" [QUST 0108596C]
-    1: "Ayisha minds Ayisha's business. Maybe you should try this, too."
-
-[INFO 0108605F] in "TES4GREETING_8596c" [DIAL 01195912] in "TES4MS91" [QUST 0108596C]
-    1: "I'm not much for small talk. Just leave me out of it."
-
-[INFO 01086060] in "TES4GREETING_8596c" [DIAL 01195912] in "TES4MS91" [QUST 0108596C]
-    1: "I hope you've been successful?"
-
-[INFO 01086061] in "TES4GREETING_8596c" [DIAL 01195912] in "TES4MS91" [QUST 0108596C]
-    1: "Marius Caro, by grace of the Nine, Count Leyawiin. You are a stranger to me, but well-met."
-    2: "Perhaps you would like to do a service for County Leyawiin?"
-
-[INFO 01086062] in "TES4GREETING_8596c" [DIAL 01195912] in "TES4MS91" [QUST 0108596C]
+[INFO 01086062] in "SKYBMS91GreetingTopic" [DIAL 01195912] in "SKYBMS91" [QUST 0108596C]
     1: "Good luck with Mazoga."
 
-[INFO 01086063] in "TES4GREETING_8596c" [DIAL 01195912] in "TES4MS91" [QUST 0108596C]
+[INFO 01086063] in "SKYBMS91GreetingTopic" [DIAL 01195912] in "SKYBMS91" [QUST 0108596C]
     1: "I'm going to see Mazoga. Come along, if you like."
 
-[INFO 01086064] in "TES4GREETING_8596c" [DIAL 01195912] in "TES4MS91" [QUST 0108596C]
+[INFO 01086064] in "SKYBMS91GreetingTopic" [DIAL 01195912] in "SKYBMS91" [QUST 0108596C]
     1: "I'm Weebam-Na. What do you want?"
 
-[INFO 01086065] in "TES4GREETING_8596c" [DIAL 01195912] in "TES4MS91" [QUST 0108596C]
-    1: "I kept my oath. Mogens Wind-Shifter is dead."
-    2: "Mogens Wind-Shifter had a gang. They robbed and killed travelers. But Ra'vindra saw, and told the guards."
-    3: "Mogens got away, but first he killed Ra'vindra... my best friend, Ra'vindra."
-    4: "That day, I became a knight, and swore a knight's oath."
-    5: "I searched a long time, and asked everyone, then I finally heard he was hiding at Fisherman's Rock."
-    6: "So now you know everything. You helped me, and I won't forget."
-    7: "Take what you want from the dead. I came to keep my oath, and now I'm done."
-
-[INFO 01086066] in "TES4GREETING_8596c" [DIAL 01195912] in "TES4MS91" [QUST 0108596C]
+[INFO 01086066] in "SKYBMS91GreetingTopic" [DIAL 01195912] in "SKYBMS91" [QUST 0108596C]
     1: "You spoiled everything, you idiot!"
 
-[INFO 01086067] in "TES4GREETING_8596c" [DIAL 01195912] in "TES4MS91" [QUST 0108596C]
+[INFO 01086067] in "SKYBMS91GreetingTopic" [DIAL 01195912] in "SKYBMS91" [QUST 0108596C]
     1: "Mogens and his dogs must die!"
 
-[INFO 0108606C] in "TES4GREETING_8596c" [DIAL 01195912] in "TES4MS91" [QUST 0108596C]
+[INFO 0108606C] in "SKYBMS91GreetingTopic" [DIAL 01195912] in "SKYBMS91" [QUST 0108596C]
     1: "Get out of my way!"
 
-[INFO 0108606D] in "TES4GREETING_8596c" [DIAL 01195912] in "TES4MS91" [QUST 0108596C]
+[INFO 0108606D] in "SKYBMS91GreetingTopic" [DIAL 01195912] in "SKYBMS91" [QUST 0108596C]
     1: "Take me to Fisherman's Rock. Now."
 
-[INFO 0108606E] in "TES4GREETING_8596c" [DIAL 01195912] in "TES4MS91" [QUST 0108596C]
+[INFO 0108606E] in "SKYBMS91GreetingTopic" [DIAL 01195912] in "SKYBMS91" [QUST 0108596C]
     1: "Weebam-Na won't take me to Fisherman's Rock."
 
-[INFO 0108606F] in "TES4GREETING_8596c" [DIAL 01195912] in "TES4MS91" [QUST 0108596C]
+[INFO 0108606F] in "SKYBMS91GreetingTopic" [DIAL 01195912] in "SKYBMS91" [QUST 0108596C]
     1: "Go tell Weebam-Na I want to see him. I'll wait right here."
 
-[INFO 0109381B] in "TES4GREETING_8596c" [DIAL 01195912] in "TES4MS91" [QUST 0108596C]
+[INFO 0109381B] in "SKYBMS91GreetingTopic" [DIAL 01195912] in "SKYBMS91" [QUST 0108596C]
     1: "What do you want?"
 
-[INFO 010860C0] in "TES4GREETING_8596c" [DIAL 01195912] in "TES4MS91" [QUST 0108596C]
+[INFO 010860C0] in "SKYBMS91GreetingTopic" [DIAL 01195912] in "SKYBMS91" [QUST 0108596C]
     1: "You're getting on my nerves. What do you want?"
+
+[INFO 01086058] in "SKYBMS91GreetingTopic" [DIAL 01195912] in "SKYBMS91" [QUST 0108596C]
+    1: "I'm Mogens Wind-Shifter. I'm having a look around. You mind?"
+
+[INFO 0108605B] in "SKYBMS91GreetingTopic" [DIAL 01195912] in "SKYBMS91" [QUST 0108596C]
+    1: "J'Baasha's an adventurer... just like you."
+
+[INFO 0108605C] in "SKYBMS91GreetingTopic" [DIAL 01195912] in "SKYBMS91" [QUST 0108596C]
+    1: "Ayisha minds Ayisha's business. Maybe you should try this, too."
+
+[INFO 0108605F] in "SKYBMS91GreetingTopic" [DIAL 01195912] in "SKYBMS91" [QUST 0108596C]
+    1: "I'm not much for small talk. Just leave me out of it."
+
+[INFO 01086060] in "SKYBMS91GreetingTopic" [DIAL 01195912] in "SKYBMS91" [QUST 0108596C]
+    1: "I hope you've been successful?"
+
+[INFO 010F93DF] in "SKYBMS91GreetingTopic" [DIAL 01195912] in "SKYBMS91" [QUST 0108596C]
+    2: "Perhaps you would like to do a service for County Leyawiin?"
 
 [INFO 0101EBB2] in "TES4GREETING_146a3" [DIAL 01195913] in "TES4DABoethia" [QUST 010146A3]
     1: "Blessed are you who wields the Goldbrand."
@@ -30375,7 +30639,7 @@
 [INFO 0103005B] in "TES4GREETING_253bc" [DIAL 01195935] in "TES4Dark06WandererFIN" [QUST 010253BC]
     1: "I have another contract, when you're ready. One that will rely on your ability to remain fully undetected."
 
-[INFO 01035587] in "TES4GREETING_35589" [DIAL 01195936] in "TES4MSShadowscale" [QUST 01035589]
+[INFO 01035587] in "SKYBDBShadowscaleGreetingTopic" [DIAL 01195936] in "SKYBDBShadowscale" [QUST 01035589]
     1: "I need to rest now, regain my strength. Don't forget to take the heart of the Argonian Agent. Present that to Teinaava, and he'll be none the wiser."
 
 [INFO 01035DF0] in "TES4GREETING_253c0" [DIAL 01195937] in "TES4Dark08WhodunitFIN" [QUST 010253C0]
@@ -30478,7 +30742,7 @@
 [INFO 01023E2F] in "TES4GREETING_232d0" [DIAL 0119593B] in "TES4Dark02WateryFIN" [QUST 010232D0]
     1: "I'm glad you've returned. The contract is waiting, if you're ready."
 
-[INFO 010253B8] in "TES4GREETING_232d1" [DIAL 0119593D] in "SKYBDB03" [QUST 010232D1]
+[INFO 010253B8] in "TES4GREETING_232d1" [DIAL 0119593D] in "SKYBDark03" [QUST 010232D1]
     1: "Every moment that Baenlin draws breath is an affront to Sithis and the Night Mother. Fulfill the contract and honor the Brotherhood as you should."
 
 [INFO 01025071] in "TES4GREETING_251e6" [DIAL 0119593E] in "TES4Dark00GeneralNPC" [QUST 010251E6]
@@ -30780,7 +31044,7 @@
 [INFO 0106141F] in "TES4GREETING_185fef" [DIAL 01195944] in "TES4SQ10" [QUST 01185FEF]
     1: "If you see my good-for-nothing husband, Bjalfi, tell him I want back what he stole from me!"
 
-[INFO 010613BF] in "TES4GREETING_18ba38" [DIAL 01195945] in "TES4TrainingRestoration" [QUST 0118BA38]
+[INFO 010613BF] in "TES4GREETING_18ba38" [DIAL 01195945] in "SKYBTrainingRestoration" [QUST 0118BA38]
     1: "Greetings, traveler. What do you seek?"
 
 [INFO 010613BB] in "TES4GREETING_18ba2b" [DIAL 01195946] in "TES4TrainingAcrobatics" [QUST 0118BA2B]
@@ -37816,28 +38080,28 @@
 [INFO 01097588] in "TES4HELLO_95a68" [DIAL 01195A20] in "TES4MS93" [QUST 01095A68]
     1: "Oh! You've returned! I do hope you have good news."
 
-[INFO 0108655D] in "TES4HELLO_8596c" [DIAL 01195A21] in "TES4MS91" [QUST 0108596C]
+[INFO 0108655D] in "SKYBMS91HelloTopic" [DIAL 01195A21] in "SKYBMS91" [QUST 0108596C]
     1: "Have you anything new to report?"
 
-[INFO 0108655F] in "TES4HELLO_8596c" [DIAL 01195A21] in "TES4MS91" [QUST 0108596C]
+[INFO 0108655F] in "SKYBMS91HelloTopic" [DIAL 01195A21] in "SKYBMS91" [QUST 0108596C]
     1: "Remember me?"
 
-[INFO 01086563] in "TES4HELLO_8596c" [DIAL 01195A21] in "TES4MS91" [QUST 0108596C]
+[INFO 01086563] in "SKYBMS91HelloTopic" [DIAL 01195A21] in "SKYBMS91" [QUST 0108596C]
     1: "You want to speak to me?"
 
-[INFO 01091B45] in "TES4HELLO_8596c" [DIAL 01195A21] in "TES4MS91" [QUST 0108596C]
+[INFO 01091B45] in "SKYBMS91HelloTopic" [DIAL 01195A21] in "SKYBMS91" [QUST 0108596C]
     1: "You are Weebam-Na?"
 
-[INFO 01086565] in "TES4HELLO_8596c" [DIAL 01195A21] in "TES4MS91" [QUST 0108596C]
+[INFO 01086565] in "SKYBMS91HelloTopic" [DIAL 01195A21] in "SKYBMS91" [QUST 0108596C]
     1: "Mogens is dead, the bastard!"
 
-[INFO 01086567] in "TES4HELLO_8596c" [DIAL 01195A21] in "TES4MS91" [QUST 0108596C]
+[INFO 01086567] in "SKYBMS91HelloTopic" [DIAL 01195A21] in "SKYBMS91" [QUST 0108596C]
     1: "Where's Fisherman's Rock?"
 
-[INFO 01086568] in "TES4HELLO_8596c" [DIAL 01195A21] in "TES4MS91" [QUST 0108596C]
+[INFO 01086568] in "SKYBMS91HelloTopic" [DIAL 01195A21] in "SKYBMS91" [QUST 0108596C]
     1: "Where's Weebam-Na?"
 
-[INFO 0108656B] in "TES4HELLO_8596c" [DIAL 01195A21] in "TES4MS91" [QUST 0108596C]
+[INFO 0108656B] in "SKYBMS91HelloTopic" [DIAL 01195A21] in "SKYBMS91" [QUST 0108596C]
     1: "What are you looking at?"
 
 [INFO 010908D4] in "TES4HELLO_8596d" [DIAL 01195A22] in "TES4MS92" [QUST 0108596D]
@@ -41458,25 +41722,25 @@
 [INFO 010363CD] in "TES4GOODBYE_35ca8" [DIAL 01195ACD] in "TES4MS26" [QUST 01035CA8]
     1: "It's been a pleasure doing business with you."
 
-[INFO 01086561] in "TES4GOODBYE_8596c" [DIAL 01195ACE] in "TES4MS91" [QUST 0108596C]
+[INFO 01086561] in "SKYBMS91GoodbyeTopic" [DIAL 01195ACE] in "SKYBMS91" [QUST 0108596C]
     1: "Prompt attention to this matter will be rewarded."
 
-[INFO 01086562] in "TES4GOODBYE_8596c" [DIAL 01195ACE] in "TES4MS91" [QUST 0108596C]
+[INFO 01086562] in "SKYBMS91GoodbyeTopic" [DIAL 01195ACE] in "SKYBMS91" [QUST 0108596C]
     1: "You're a lying bastard. You killed Ra'vindra. And now I'm going to kill you. "
 
-[INFO 01086564] in "TES4GOODBYE_8596c" [DIAL 01195ACE] in "TES4MS91" [QUST 0108596C]
+[INFO 01086564] in "SKYBMS91GoodbyeTopic" [DIAL 01195ACE] in "SKYBMS91" [QUST 0108596C]
     1: "Then to hell with you!"
 
-[INFO 01086566] in "TES4GOODBYE_8596c" [DIAL 01195ACE] in "TES4MS91" [QUST 0108596C]
+[INFO 01086566] in "SKYBMS91GoodbyeTopic" [DIAL 01195ACE] in "SKYBMS91" [QUST 0108596C]
     1: "Thanks for the help. You're okay."
 
-[INFO 01086569] in "TES4GOODBYE_8596c" [DIAL 01195ACE] in "TES4MS91" [QUST 0108596C]
+[INFO 01086569] in "SKYBMS91GoodbyeTopic" [DIAL 01195ACE] in "SKYBMS91" [QUST 0108596C]
     1: "What are we waiting for?"
 
-[INFO 0108656A] in "TES4GOODBYE_8596c" [DIAL 01195ACE] in "TES4MS91" [QUST 0108596C]
+[INFO 0108656A] in "SKYBMS91GoodbyeTopic" [DIAL 01195ACE] in "SKYBMS91" [QUST 0108596C]
     1: "Get a move on, will you?"
 
-[INFO 0108656C] in "TES4GOODBYE_8596c" [DIAL 01195ACE] in "TES4MS91" [QUST 0108596C]
+[INFO 0108656C] in "SKYBMS91GoodbyeTopic" [DIAL 01195ACE] in "SKYBMS91" [QUST 0108596C]
     1: "People are just ignorant around here..."
 
 [INFO 010908E5] in "TES4GOODBYE_8596d" [DIAL 01195ACF] in "TES4MS92" [QUST 0108596D]
@@ -47182,10 +47446,10 @@
 [INFO 0104996F] in "TES4INFOGENERAL_49969" [DIAL 01195B25] in "TES4NQDImperialCity" [QUST 01049969]
     1: "Vinivia Melissaeia takes all the merchant complaints in the city."
 
-[INFO 01146007] in "TES4INFOGENERAL_8596c" [DIAL 01195B26] in "TES4MS91" [QUST 0108596C]
+[INFO 01146007] in "SKYBMS91RumorsTopic" [DIAL 01195B26] in "SKYBMS91" [QUST 0108596C]
     1: "The Count's been asking questions about some Orc named Mazoga at the castle... she claims she's a knight."
 
-[INFO 01146008] in "TES4INFOGENERAL_8596c" [DIAL 01195B26] in "TES4MS91" [QUST 0108596C]
+[INFO 01146008] in "SKYBMS91RumorsTopic" [DIAL 01195B26] in "SKYBMS91" [QUST 0108596C]
     1: "There's an Orc named Mazoga up at the castle claims she's a knight. Doesn't look like one to me."
 
 [INFO 01030036] in "TES4INFOGENERAL_2f86b" [DIAL 01195B27] in "TES4MS47" [QUST 0102F86B]
@@ -49594,7 +49858,7 @@
 [INFO 0118D2B0] in "TES4ServiceRefusal_18ba2a" [DIAL 01195BD7] in "TES4TrainingAlchemy" [QUST 0118BA2A]
     1: "I don't think you can quite grasp the nuances of Alchemy. I'm sorry, but my training would be beyond you."
 
-[INFO 010613B1] in "TES4ServiceRefusal_18ba36" [DIAL 01195BD8] in "TES4TrainingMercantile" [QUST 0118BA36]
+[INFO 010613B1] in "TES4ServiceRefusal_18ba36" [DIAL 01195BD8] in "SKYBTrainingMercantile" [QUST 0118BA36]
     1: "Oh, I couldn't just give away all my business secrets. They wouldn't be secrets any more, would they?"
 
 [INFO 01062460] in "TES4ServiceRefusal_18ba35" [DIAL 01195BD9] in "TES4TrainingLightArmor" [QUST 0118BA35]
@@ -49612,10 +49876,10 @@
 [INFO 0106143C] in "TES4ServiceRefusal_18ba31" [DIAL 01195BDC] in "TES4TrainingBlunt" [QUST 0118BA31]
     1: "You don't really know what it's like to crack skulls. Until you do, I've got nothing to say to you."
 
-[INFO 010613C1] in "TES4ServiceRefusal_18ba3a" [DIAL 01195BDD] in "TES4TrainingSneak" [QUST 0118BA3A]
+[INFO 010613C1] in "TES4ServiceRefusal_18ba3a" [DIAL 01195BDD] in "SKYBTrainingSneak" [QUST 0118BA3A]
     1: "You've done nothing to prove yourself worthy of my time. Not a chance."
 
-[INFO 010613BD] in "TES4ServiceRefusal_18ba38" [DIAL 01195BDE] in "TES4TrainingRestoration" [QUST 0118BA38]
+[INFO 010613BD] in "TES4ServiceRefusal_18ba38" [DIAL 01195BDE] in "SKYBTrainingRestoration" [QUST 0118BA38]
     1: "Not while Kvatch is still in danger. Once we are all safe, perhaps I will reconsider."
 
 [INFO 010613BA] in "TES4ServiceRefusal_18ba2b" [DIAL 01195BDF] in "TES4TrainingAcrobatics" [QUST 0118BA2B]
@@ -49630,7 +49894,7 @@
 [INFO 010613AC] in "TES4ServiceRefusal_18ba32" [DIAL 01195BE2] in "TES4TrainingConjuration" [QUST 0118BA32]
     1: "You are not worthy."
 
-[INFO 010613AB] in "TES4ServiceRefusal_18ba37" [DIAL 01195BE3] in "TES4TrainingMysticism" [QUST 0118BA37]
+[INFO 010613AB] in "TES4ServiceRefusal_18ba37" [DIAL 01195BE3] in "SKYBTrainingMysticism" [QUST 0118BA37]
     1: "No, child. Not while the barriers between worlds are so weakened."
 
 [INFO 0118D155] in "TES4ServiceRefusal_18ba2c" [DIAL 01195BE4] in "TES4TrainingAlteration" [QUST 0118BA2C]
@@ -52881,37 +53145,37 @@
 [INFO 01023E73] in "TES4contract_23dd7" [DIAL 01195CB3] in "TES4Dark04ExecutionFIN" [QUST 01023DD7]
     1: "We're usually called upon to take a life, but not this time. This contract requires us to stage the assassination of a marked man. Are you ready?"
 
-[INFO 01023E70] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
+[INFO 01023E70] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDark03" [QUST 010232D1]
     1: "You are to travel to Bruma, enter the house of the Wood Elf Baenlin, and kill him. It should look like an accident. I'm sure you can handle it."
 
-[INFO 01023419] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
+[INFO 01023419] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDark03" [QUST 010232D1]
     1: "The manservant's name is Gromm, you say? Sounds like a Nord. Probably a big one. If he catches you, get ready for a serious fight. "
 
-[INFO 010251B1] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
+[INFO 010251B1] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDark03" [QUST 010232D1]
     1: "What's the matter? You can't kill an old man? Want Gogron to hold your hand? You make me sick!"
 
-[INFO 010251B4] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
+[INFO 010251B4] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDark03" [QUST 010232D1]
     1: "If the target is old and weak, as you say, then his manservant is sure to be quite the opposite. Best stay out of his way."
 
-[INFO 010251B5] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
+[INFO 010251B5] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDark03" [QUST 010232D1]
     1: "I could help you, yes. But I won't. Your failure will give me much joy."
 
-[INFO 010251BD] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
+[INFO 010251BD] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDark03" [QUST 010232D1]
     1: "Yes, you'll find that some jobs require you to terminate a mark in a specific way. It's well worth the trouble, considering how good the bonuses are."
 
-[INFO 010251BF] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
+[INFO 010251BF] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDark03" [QUST 010232D1]
     1: "This contract requires stealth and subtlety. You possess neither. When you fail, I will gladly take your place."
 
-[INFO 010251C5] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
+[INFO 010251C5] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDark03" [QUST 010232D1]
     1: "How do you plan on entering this man's house? Through the front door? Be smart and look for a more inconspicuous way in, like a cellar entrance."
 
-[INFO 010251C7] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
+[INFO 010251C7] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDark03" [QUST 010232D1]
     1: "That manservant is going to squash you like a bug! I can't wait to see what's left of you."
 
-[INFO 010251CD] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
+[INFO 010251CD] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDark03" [QUST 010232D1]
     1: "If things go badly, forgo the plan and simply kill the mark any way you can. You'll lose the bonus, but at least the contract will be fulfilled. "
 
-[INFO 010251D1] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDB03" [QUST 010232D1]
+[INFO 010251D1] in "TES4contract_232d1" [DIAL 01195CB4] in "SKYBDark03" [QUST 010232D1]
     1: "For the love of Sithis, you have to kill a feeble old man. Is that too much for you to handle?"
 
 [INFO 01023E47] in "TES4contract_232d0" [DIAL 01195CB5] in "TES4Dark02WateryFIN" [QUST 010232D0]
@@ -55502,7 +55766,7 @@
     1: "Even though he may be a bit misguided, I'm still proud to call him my son."
 
 [INFO 010329E3] in "TES4FawilTopic_e6ed1" [DIAL 01195D3C] in "TES4MSFIN" [QUST 010E6ED1]
-    1: "It's ashame Farwil is gone. Although he was boastful and aloof, at least he treated me as an equal. I shall miss him."
+    1: "It's a shame Farwil is gone. Although he was boastful and aloof, at least he treated me as an equal. I shall miss him."
 
 [INFO 010329F3] in "TES4FawilTopic_e6ed1" [DIAL 01195D3C] in "TES4MSFIN" [QUST 010E6ED1]
     1: "Perhaps in the future, Farwil will learn patience and careful planning before dragging us into a situation like that again."
@@ -56218,10 +56482,10 @@
     1: "Everyone in town knows about my hobby... collecting unusual examples of the arcane crafts. My husband left me quite comfortable, bless his cinders."
     3: "What will I do with my collection of curiosities when I go? Donate them to the Castle, of course. "
 
-[INFO 01086074] in "TES4LeyawiinTopic_8596c" [DIAL 01195D56] in "TES4MS91" [QUST 0108596C]
+[INFO 01086074] in "SKYBMS91LeyawiinTopic" [DIAL 01195D56] in "SKYBMS91" [QUST 0108596C]
     1: "You can speak to the Count near the throne weekdays between eight in the morning and four in the afternoon."
 
-[INFO 01091B41] in "TES4LeyawiinTopic_8596c" [DIAL 01195D56] in "TES4MS91" [QUST 0108596C]
+[INFO 01091B41] in "SKYBMS91LeyawiinTopic" [DIAL 01195D56] in "SKYBMS91" [QUST 0108596C]
     1: "Orc named Mazoga says she's a knight. I doubt it. The Count wants it looked into. Why don't you talk to him?"
     2: "The Count appears for audiences in the County Hall near the throne weekdays between 8 AM and 4 PM."
 
@@ -56766,7 +57030,7 @@
     1: "I'm glad that scum got what he deserved. Good riddance."
 
 [INFO 01038AFB] in "TES4BradonLirrianTopic_e6ed1" [DIAL 01195D87] in "TES4MSFIN" [QUST 010E6ED1]
-    1: "It's ashame that there will be no retribution for Bradon and Gelebourne's deaths, but such is the way of things. I know you did your best."
+    1: "It's a shame that there will be no retribution for Bradon and Gelebourne's deaths, but such is the way of things. I know you did your best."
 
 [INFO 01038AFE] in "TES4BradonLirrianTopic_e6ed1" [DIAL 01195D87] in "TES4MSFIN" [QUST 010E6ED1]
     1: "Although we can't go back and undo what's been done, I feel justice has been served, and Bradon's soul may rest with ease."
@@ -57068,24 +57332,24 @@
     1: "There's only one last thing I can say about Marksman training. If you want to be the best, you have to learn from the best."
     2: "And the best I've ever seen is an Archer named Alawen. Not sure where she is now; last I heard, she had a camp east of Anvil, out in the forest."
 
-[INFO 01061394] in "TES4TrainingQuestTopic_18ba38" [DIAL 01195D90] in "TES4TrainingRestoration" [QUST 0118BA38]
+[INFO 01061394] in "TES4TrainingQuestTopic_18ba38" [DIAL 01195D90] in "SKYBTrainingRestoration" [QUST 0118BA38]
     1: "You have helped to save Kvatch, or what is left of it. For that, I can do nothing less than help you spread healing throughout Cyrodiil."
     2: "I shall offer you whatever skill I have."
 
-[INFO 0106139B] in "TES4TrainingQuestTopic_18ba38" [DIAL 01195D90] in "TES4TrainingRestoration" [QUST 0118BA38]
+[INFO 0106139B] in "TES4TrainingQuestTopic_18ba38" [DIAL 01195D90] in "SKYBTrainingRestoration" [QUST 0118BA38]
     1: "While Daedra still roam free in Kvatch, I can think of nothing else. When my city is safe, then I will train you."
 
-[INFO 0106139E] in "TES4TrainingQuestTopic_18ba38" [DIAL 01195D90] in "TES4TrainingRestoration" [QUST 0118BA38]
+[INFO 0106139E] in "TES4TrainingQuestTopic_18ba38" [DIAL 01195D90] in "SKYBTrainingRestoration" [QUST 0118BA38]
     1: "Your courage is admirable, but now is not the time. Once Kvatch is safe from these attackers, then we might speak of training."
 
-[INFO 010613A5] in "TES4TrainingQuestTopic_18ba38" [DIAL 01195D90] in "TES4TrainingRestoration" [QUST 0118BA38]
+[INFO 010613A5] in "TES4TrainingQuestTopic_18ba38" [DIAL 01195D90] in "SKYBTrainingRestoration" [QUST 0118BA38]
     1: "Speak with Oleta, at the Chapel of Akatosh in Kvatch. She will be able to train you further."
 
-[INFO 010613A8] in "TES4TrainingQuestTopic_18ba38" [DIAL 01195D90] in "TES4TrainingRestoration" [QUST 0118BA38]
+[INFO 010613A8] in "TES4TrainingQuestTopic_18ba38" [DIAL 01195D90] in "SKYBTrainingRestoration" [QUST 0118BA38]
     1: "Oleta was the most gifted healer I've ever known. If anyone can teach you more, she can."
     2: "She worked in the Chapel of Akatosh in Kvatch. I haven't seen her in quite some time."
 
-[INFO 010613BE] in "TES4TrainingQuestTopic_18ba38" [DIAL 01195D90] in "TES4TrainingRestoration" [QUST 0118BA38]
+[INFO 010613BE] in "TES4TrainingQuestTopic_18ba38" [DIAL 01195D90] in "SKYBTrainingRestoration" [QUST 0118BA38]
     1: "For advanced training, seek out Oleta. She serves Akatosh at his temple in Kvatch. She can teach you all you need to know."
 
 [INFO 0118D2AA] in "TES4TrainingQuestTopic_18ba2a" [DIAL 01195D91] in "TES4TrainingAlchemy" [QUST 0118BA2A]
@@ -57222,47 +57486,47 @@
     1: "Tandilwe has a true mastery of the spoken word. She is the one you should speak with about more training."
     2: "Seek her out at the Temple of the One in the Imperial City."
 
-[INFO 01061393] in "TES4TrainingQuestTopic_18ba3a" [DIAL 01195D97] in "TES4TrainingSneak" [QUST 0118BA3A]
+[INFO 01061393] in "TES4TrainingQuestTopic_18ba3a" [DIAL 01195D97] in "SKYBTrainingSneak" [QUST 0118BA3A]
     1: "Well, there it is. Not the best job I've seen, but you did it."
     2: "All right, I'll help you hone your technique."
 
-[INFO 0106139C] in "TES4TrainingQuestTopic_18ba3a" [DIAL 01195D97] in "TES4TrainingSneak" [QUST 0118BA3A]
+[INFO 0106139C] in "TES4TrainingQuestTopic_18ba3a" [DIAL 01195D97] in "SKYBTrainingSneak" [QUST 0118BA3A]
     1: "You don't have my coin, so you don't get any training. I haven't changed my mind."
 
-[INFO 0106139D] in "TES4TrainingQuestTopic_18ba3a" [DIAL 01195D97] in "TES4TrainingSneak" [QUST 0118BA3A]
+[INFO 0106139D] in "TES4TrainingQuestTopic_18ba3a" [DIAL 01195D97] in "SKYBTrainingSneak" [QUST 0118BA3A]
     1: "Training? From me?"
     2: "A few too many loose lips, it seems. It's not something I want to be public knowledge, if you understand my meaning."
     3: "Very well. Simple task for you. I just dropped a favorite coin of mine into my pocket. If you can steal it from me, I'll train you."
 
-[INFO 010613A6] in "TES4TrainingQuestTopic_18ba3a" [DIAL 01195D97] in "TES4TrainingSneak" [QUST 0118BA3A]
+[INFO 010613A6] in "TES4TrainingQuestTopic_18ba3a" [DIAL 01195D97] in "SKYBTrainingSneak" [QUST 0118BA3A]
     1: "Find Marana Rian in the Imperial City. She can teach you what you wish to know."
 
-[INFO 010613A7] in "TES4TrainingQuestTopic_18ba3a" [DIAL 01195D97] in "TES4TrainingSneak" [QUST 0118BA3A]
+[INFO 010613A7] in "TES4TrainingQuestTopic_18ba3a" [DIAL 01195D97] in "SKYBTrainingSneak" [QUST 0118BA3A]
     1: "You want more training? Then you'll have to go to the best. Marana Rian, here in the Imperial City. She can help you better than I."
 
-[INFO 010613C2] in "TES4TrainingQuestTopic_18ba3a" [DIAL 01195D97] in "TES4TrainingSneak" [QUST 0118BA3A]
+[INFO 010613C2] in "TES4TrainingQuestTopic_18ba3a" [DIAL 01195D97] in "SKYBTrainingSneak" [QUST 0118BA3A]
     1: "If you need more assistance with your training, seek out Marana Rian in the Imperial City. She uses the shadows like no other I've seen."
 
-[INFO 01061396] in "TES4TrainingQuestTopic_18ba36" [DIAL 01195D98] in "TES4TrainingMercantile" [QUST 0118BA36]
+[INFO 01061396] in "TES4TrainingQuestTopic_18ba36" [DIAL 01195D98] in "SKYBTrainingMercantile" [QUST 0118BA36]
     1: "Well, will you look at that. Quite a bit of gold you have there... so beautiful, isn't it?"
     2: "Perhaps you are capable of being a decent trader one day. Well, with that kind of money, anyone can be, after all."
     3: "I shall be happy to impart to you the knowledge I've gained over the years... for a price, of course. I wouldn't have it any other way."
 
-[INFO 01061399] in "TES4TrainingQuestTopic_18ba36" [DIAL 01195D98] in "TES4TrainingMercantile" [QUST 0118BA36]
+[INFO 01061399] in "TES4TrainingQuestTopic_18ba36" [DIAL 01195D98] in "SKYBTrainingMercantile" [QUST 0118BA36]
     1: "Show me that you can raise at least ten thousand gold for a business venture, and I'll help you learn how to put it to good use."
 
-[INFO 010613A0] in "TES4TrainingQuestTopic_18ba36" [DIAL 01195D98] in "TES4TrainingMercantile" [QUST 0118BA36]
+[INFO 010613A0] in "TES4TrainingQuestTopic_18ba36" [DIAL 01195D98] in "SKYBTrainingMercantile" [QUST 0118BA36]
     1: "Training? Well, my dear, good business sense is just something that comes naturally to me."
     2: "You've got to have the know-how, or else I can't teach you anything at all. Do you have what it takes? Do you even know what it takes?"
     3: "Gold, that's what! Septims, and lots of them! Show me that you've got the starting capital, at least ten thousand in liquid assets."
 
-[INFO 010613A3] in "TES4TrainingQuestTopic_18ba36" [DIAL 01195D98] in "TES4TrainingMercantile" [QUST 0118BA36]
+[INFO 010613A3] in "TES4TrainingQuestTopic_18ba36" [DIAL 01195D98] in "SKYBTrainingMercantile" [QUST 0118BA36]
     1: "Travel to the Imperial City, and speak with Palonirya."
 
-[INFO 010613A9] in "TES4TrainingQuestTopic_18ba36" [DIAL 01195D98] in "TES4TrainingMercantile" [QUST 0118BA36]
+[INFO 010613A9] in "TES4TrainingQuestTopic_18ba36" [DIAL 01195D98] in "SKYBTrainingMercantile" [QUST 0118BA36]
     1: "Palonirya is one of the wealthiest traders in Cyrodiil. Her shop in the Imperial City is so successful. If anyone can teach you more, she can."
 
-[INFO 010613B2] in "TES4TrainingQuestTopic_18ba36" [DIAL 01195D98] in "TES4TrainingMercantile" [QUST 0118BA36]
+[INFO 010613B2] in "TES4TrainingQuestTopic_18ba36" [DIAL 01195D98] in "SKYBTrainingMercantile" [QUST 0118BA36]
     1: "If you're looking to be the best in business, you need to learn from the best. Palonirya is one of the best, so you might try asking her."
     2: "She has a very successful shop in the Market District of the Imperial City."
 
@@ -57337,23 +57601,23 @@
 [INFO 0118B19B] in "TES4TrainingQuestTopic_18b197" [DIAL 01195D9B] in "TES4TrainingDestruction" [QUST 0118B197]
     1: "You certainly know your Destruction spells. I wish I could be of more help, but... I just don't feel comfortable talking about it."
 
-[INFO 0118D883] in "TES4TrainingQuestTopic_18ba37" [DIAL 01195D9C] in "TES4TrainingMysticism" [QUST 0118BA37]
+[INFO 0118D883] in "TES4TrainingQuestTopic_18ba37" [DIAL 01195D9C] in "SKYBTrainingMysticism" [QUST 0118BA37]
     1: "You have done much to prevent the flow of Oblivion into Tamriel. The world is in your debt, and I am at your service. My knowledge is yours."
 
-[INFO 0106D7A7] in "TES4TrainingQuestTopic_18ba37" [DIAL 01195D9C] in "TES4TrainingMysticism" [QUST 0118BA37]
+[INFO 0106D7A7] in "TES4TrainingQuestTopic_18ba37" [DIAL 01195D9C] in "SKYBTrainingMysticism" [QUST 0118BA37]
     1: "The barriers between worlds are weak. Close the doors to Oblivion, and then we shall speak of training."
 
-[INFO 0118D888] in "TES4TrainingQuestTopic_18ba37" [DIAL 01195D9C] in "TES4TrainingMysticism" [QUST 0118BA37]
+[INFO 0118D888] in "TES4TrainingQuestTopic_18ba37" [DIAL 01195D9C] in "SKYBTrainingMysticism" [QUST 0118BA37]
     1: "Training, child? You would know more about the mystic energies of the world around us?"
     2: "The barriers between planes are weak. Do more to strengthen them; seal the portals to Oblivion. Then we shall speak of training."
 
-[INFO 0118D889] in "TES4TrainingQuestTopic_18ba37" [DIAL 01195D9C] in "TES4TrainingMysticism" [QUST 0118BA37]
+[INFO 0118D889] in "TES4TrainingQuestTopic_18ba37" [DIAL 01195D9C] in "SKYBTrainingMysticism" [QUST 0118BA37]
     1: "Go to the Leyawiin Guild hall, and speak with Dagail. She can train you further."
 
-[INFO 0118D88D] in "TES4TrainingQuestTopic_18ba37" [DIAL 01195D9C] in "TES4TrainingMysticism" [QUST 0118BA37]
+[INFO 0118D88D] in "TES4TrainingQuestTopic_18ba37" [DIAL 01195D9C] in "SKYBTrainingMysticism" [QUST 0118BA37]
     1: "If you seek additional training, I cannot help. Dagail, however, knows more than anyone in Cyrodiil. You can find her in the Leyawiin Guild hall."
 
-[INFO 0118D88E] in "TES4TrainingQuestTopic_18ba37" [DIAL 01195D9C] in "TES4TrainingMysticism" [QUST 0118BA37]
+[INFO 0118D88E] in "TES4TrainingQuestTopic_18ba37" [DIAL 01195D9C] in "SKYBTrainingMysticism" [QUST 0118BA37]
     1: "You know as much about Mysticism as I do. If you wish to learn more, Dagail can teach you."
     2: "Visit her at the Leyawiin Guild hall. But be aware that she's a bit...  odd."
 
@@ -58061,13 +58325,13 @@
     2: "As I've said, all choices have consequences, but don't trouble yourself too much with your decision."
     3: "All those that enter the Realm are forever changed, but some believe it is for the better. A good portion of them, at least."
 
-[INFO 010860B1] in "TES4ServicetoLeyawiinTopic_8596c" [DIAL 01195DC9] in "TES4MS91" [QUST 0108596C]
+[INFO 010860B1] in "SKYBMS91ServicetoLeyawiinTopic_8596c" [DIAL 01195DC9] in "SKYBMS91" [QUST 0108596C]
     1: "Have you learned why the Orc is here?"
 
-[INFO 01175BC8] in "TES4ServicetoLeyawiinTopic_8596c" [DIAL 01195DC9] in "TES4MS91" [QUST 0108596C]
+[INFO 01175BC8] in "SKYBMS91ServicetoLeyawiinTopic_8596c" [DIAL 01195DC9] in "SKYBMS91" [QUST 0108596C]
     1: "Did you find out why the Orc is here?"
 
-[INFO 010860B5] in "TES4ServicetoLeyawiinTopic_8596c" [DIAL 01195DC9] in "TES4MS91" [QUST 0108596C]
+[INFO 010860B5] in "SKYBMS91ServicetoLeyawiinTopic_8596c" [DIAL 01195DC9] in "SKYBMS91" [QUST 0108596C]
     1: "I need your help. An Orc named Mazoga here claims to be a knight, but will not reveal her business."
     2: "Find out why she is here, and report to me, and you will earn a reward suitable for those who serve Leyawiin."
 
@@ -59142,6 +59406,20 @@
     1: "I can't believe this is happening."
     2: "Please... please. I need your help. My husband was no vampire! It's ridiculous! No one will listen to me!"
 
+[INFO 01038580] in "TES4GREETING_17839_Block" [DIAL 01195E56] in "TES4MS11" [QUST 01017839]
+    1: "Just before I arrived here, I received a report from one of our scouts watching the roads."
+    2: "Raynil was spotted heading west out of Bruma. The scout tried to follow, but lost him in the mountains."
+    3: "The only cave to the west that comes close to the one described in Gelebourne's journal is Boreal Stone Cave. That must be where he's headed."
+    4: "You must get there before he acquires whatever artifact is being kept there and makes his escape."
+    5: "I'm keeping the city guard in Bruma, as Raynil doesn't know we're after him. If he sees a guard, he may panic and run."
+    6: "You're my only hope at the moment. Please, you have my authorization to do everything you can to bring him to justice."
+    7: "If he won't surrender, I think you know what to do. Hurry, I fear you have a day at the most to stop him."
+
+[INFO 01038B08] in "TES4GREETING_17839_Block" [DIAL 01195E56] in "TES4MS11" [QUST 01017839]
+    1: "Here is the amulet back. It's as beautiful as it was the day I remember seeing it long ago. I want you to keep it, as I have no use for this anymore."
+    2: "I'm certain that's what I want, and I'm certain that's what Bradon would want."
+    3: "I thank you from the bottom of my heart. I hope that the amulet helps keep you safe on whatever roads you may travel."
+
 [INFO 0101EBCF] in "TES4GREETING_146a5_Block" [DIAL 01195E58] in "TES4DAHircine" [QUST 010146A5]
     1: "You approach the Shrine of Hircine. Are you hunter, or are you prey?"
 
@@ -59327,7 +59605,7 @@
 [INFO 0102F87D] in "TES4GREETING_253ba_Block" [DIAL 01195E7A] in "TES4Dark05AssassinatedFIN" [QUST 010253BA]
     1: "Well now, you are an ambitious one, aren't you? I'm afraid I have no more contracts for you. Our time working together has come to an end."
 
-[INFO 01035586] in "TES4GREETING_35589_Block" [DIAL 01195E7C] in "TES4MSShadowscale" [QUST 01035589]
+[INFO 01035586] in "SKYBDBShadowscaleGreetingBlockTopic" [DIAL 01195E7C] in "SKYBDBShadowscale" [QUST 01035589]
     1: "I guess I've been expecting you, assassin. Don't try to deny it. I can see it in your eyes. You're Dark Brotherhood through and through."
     2: "Let me guess, it was Ocheeva, right? No, wait. Teinaava. Yes, he put you up to this, didn't he. Ocheeva was always too busy to even be bothered."
     3: "Well, you can kill me if you like. I'm afraid I won't make much of a challenge, though. The Argonian Royal Court already sent an Agent to do the job."
@@ -59854,11 +60132,22 @@
     3: "Without my amulet, my stone to lock the voices away, the words will never come and stay."
     4: "Would you lift your hands to help another, to help me find the words?"
 
-[INFO 0108606A] in "TES4GREETING_8596c_Block" [DIAL 01195EB2] in "TES4MS91" [QUST 0108596C]
+[INFO 0108606A] in "SKYBMS91GreetingBlockTopic" [DIAL 01195EB2] in "SKYBMS91" [QUST 0108596C]
     1: "What's the matter? What did you do?"
 
-[INFO 01086072] in "TES4GREETING_8596c_Block" [DIAL 01195EB2] in "TES4MS91" [QUST 0108596C]
+[INFO 01086072] in "SKYBMS91GreetingBlockTopic" [DIAL 01195EB2] in "SKYBMS91" [QUST 0108596C]
     1: "Are you the Count?"
+
+[INFO 01086061] in "SKYBMS91GreetingBlockTopic" [DIAL 01195EB2] in "SKYBMS91" [QUST 0108596C]
+    1: "Marius Caro, by grace of the Nine, Count Leyawiin. You are a stranger to me, but well-met."
+
+[INFO 01086065] in "SKYBMS91GreetingBlockTopic" [DIAL 01195EB2] in "SKYBMS91" [QUST 0108596C]
+    1: "I kept my oath. Mogens Wind-Shifter is dead."
+    2: "Mogens Wind-Shifter had a gang. They robbed and killed travelers. But Ra'vindra saw, and told the guards."
+    3: "Mogens got away, but first he killed Ra'vindra... my best friend, Ra'vindra."
+    4: "That day, I became a knight, and swore a knight's oath."
+    5: "I searched a long time, and asked everyone, then I finally heard he was hiding at Fisherman's Rock."
+    6: "So now you know everything. You helped me, and I won't forget."
 
 [INFO 01053732] in "TES4GREETING_3e933_Block" [DIAL 01195EB4] in "TES4MS40" [QUST 0103E933]
     1: "Good to see you again. Do you have the Soul Gems I requested?"
@@ -60382,7 +60671,7 @@
 [INFO 010844BB] in "TES4GREETING_2ab4a_Block" [DIAL 01195EF6] in "TES4MS21" [QUST 0102AB4A]
     1: "Yes? You have something of interest to me?"
 
-[INFO 0102D921] in "TES4GREETING_232d1_Block" [DIAL 01195EF8] in "SKYBDB03" [QUST 010232D1]
+[INFO 0102D921] in "SKYBDark03GreetingBlockTopic" [DIAL 01195EF8] in "SKYBDark03" [QUST 010232D1]
     1: "Huh? You're not Gromm. Who are you? Why are you in my home?"
 
 [INFO 010277ED] in "TES4GREETING_28c05_Block" [DIAL 01195EFA] in "TES4MG05A" [QUST 01028C05]
@@ -61066,18 +61355,18 @@
 [INFO 01049881] in [DIAL 0121030E] in "TES4Dark02Watery" [QUST 010232CF]
     1: "[Knock knock knock!] Captain! Captain Tussaud! Are you all right sir? We... We heard a clamor. Captain? We're coming in!"
 
-[INFO 01023F7C] in "SKYBDB03FinishTopic" [DIAL 01210314] in "SKYBDB03" [QUST 010232D1]
+[INFO 01023F7C] in "SKYBDark03FinishTopic" [DIAL 01210314] in "SKYBDark03" [QUST 010232D1]
     1: "So, the accident has been staged, and Baenlin lies dead. Well done! You have more than earned your reward and bonus. "
     2: "I present to you this dagger. It's an enchanted blade, known as Sufferthorn. Its prick is deadly, I assure you."
     3: "Yes, you are quite an asset to this Sanctuary. In fact, I believe you are ready for advancement. I hereby appoint you Slayer. Well done! "
 
-[INFO 01023F7B] in "SKYBDB03FinishTopic" [DIAL 01210314] in "SKYBDB03" [QUST 010232D1]
+[INFO 01023F7B] in "SKYBDark03FinishTopic" [DIAL 01210314] in "SKYBDark03" [QUST 010232D1]
     1: "Baenlin is dead, yes, but you did not fulfill the contract precisely as directed. I will grant your reward of gold, but the bonus is forfeit."
 
-[INFO 01210317] in "SKYBDB03FinishContinuedTopic" [DIAL 01210315] in "SKYBDB03" [QUST 010232D1]
+[INFO 01210317] in "SKYBDark03FinishContinuedTopic" [DIAL 01210315] in "SKYBDark03" [QUST 010232D1]
     1: "Now go, child of Sithis. Go and rest. You'll need it."
 
-[INFO 01210316] in "SKYBDB03FinishContinuedTopic" [DIAL 01210315] in "SKYBDB03" [QUST 010232D1]
+[INFO 01210316] in "SKYBDark03FinishContinuedTopic" [DIAL 01210315] in "SKYBDark03" [QUST 010232D1]
     1: "Despite this misfortune, you are ready for advancement. I appoint you Slayer for the Dark Brotherhood. Now go, and continue to serve Sithis well."
 
 [INFO 010251B9] in "TES4Dark04Finish" [DIAL 01210320] in "TES4Dark04Execution" [QUST 010239E1]
@@ -62166,13 +62455,13 @@
 [INFO 01210A3A] in [DIAL 01210A39] in "TES4DAVaermina" [QUST 010146AE]
     1: "You have proved yourself, mortal. It is fitting, as well, that you should bear my token."
 
-[INFO 01086070] in "TES4MS91WeebumPersuadeTopic" [DIAL 01210B1E] in "TES4MS91" [QUST 0108596C]
+[INFO 01086070] in "SKYBMS91WeebamPersuadeTopic" [DIAL 01210B1E] in "SKYBMS91" [QUST 0108596C]
     1: "I see. So an Orc named Mazoga wants to see me? And she expects me to come to her?"
     2: "I don't know her. I'd be smart to ignore her."
     3: "But... I never learned anything by being smart. And you seem to be a right skipper."
     4: "So I guess I'll have to go see what this is about. Thank you."
 
-[INFO 01086071] in "TES4MS91WeebumPersuadeTopic" [DIAL 01210B1E] in "TES4MS91" [QUST 0108596C]
+[INFO 01086071] in "SKYBMS91WeebamPersuadeTopic" [DIAL 01210B1E] in "SKYBMS91" [QUST 0108596C]
     1: "So? An Orc wants to see me? And this interests me how? Did I forget how much I like you so I should do this favor for you?"
     2: "Maybe I just don't like you very much. So I'm not going."
 
@@ -62326,34 +62615,34 @@
 [INFO 01026E65] in "TES4GREETING_26de3_Blocking" [DIAL 01210DF5] in "TES4DarkExileControl" [QUST 01026DE3]
     1: "Not here! Not in public! We must never speak to each other outside the Sanctuary! The risk of detection is too great!"
 
-"TES4TrainingInfo1" [INFO 01211045] in "TES4TrainingSharedInfosTopicDUPLICATE001" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
+"TES4TrainingInfo1" [INFO 01211045] in "TES4TrainingSharedInfosTopic" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
     1: "Let's see if we can't teach you a thing or two."
 
-"TES4TrainingInfo2" [INFO 01211046] in "TES4TrainingSharedInfosTopicDUPLICATE001" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
+"TES4TrainingInfo2" [INFO 01211046] in "TES4TrainingSharedInfosTopic" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
     1: "I'm willing to teach, if you're willing to learn."
 
-"TES4TrainingInfo3" [INFO 01211047] in "TES4TrainingSharedInfosTopicDUPLICATE001" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
+"TES4TrainingInfo3" [INFO 01211047] in "TES4TrainingSharedInfosTopic" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
     1: "There's much I can show you."
 
-"TES4TrainingInfo4" [INFO 01211048] in "TES4TrainingSharedInfosTopicDUPLICATE001" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
+"TES4TrainingInfo4" [INFO 01211048] in "TES4TrainingSharedInfosTopic" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
     1: "Let's get to training."
 
-"TES4TrainingInfo5" [INFO 01211049] in "TES4TrainingSharedInfosTopicDUPLICATE001" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
+"TES4TrainingInfo5" [INFO 01211049] in "TES4TrainingSharedInfosTopic" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
     1: "You've got a lot to learn."
 
-"TES4TrainingInfo6" [INFO 0121104A] in "TES4TrainingSharedInfosTopicDUPLICATE001" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
+"TES4TrainingInfo6" [INFO 0121104A] in "TES4TrainingSharedInfosTopic" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
     1: "I can show you some new things."
 
-"TES4TrainingInfo7" [INFO 0121104B] in "TES4TrainingSharedInfosTopicDUPLICATE001" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
+"TES4TrainingInfo7" [INFO 0121104B] in "TES4TrainingSharedInfosTopic" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
     1: "Good that you want to get better."
 
-"TES4TrainingInfo8" [INFO 0121104C] in "TES4TrainingSharedInfosTopicDUPLICATE001" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
+"TES4TrainingInfo8" [INFO 0121104C] in "TES4TrainingSharedInfosTopic" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
     1: "Pay attention, and you can learn a lot."
 
-"TES4TrainingInfo9" [INFO 0121104D] in "TES4TrainingSharedInfosTopicDUPLICATE001" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
+"TES4TrainingInfo9" [INFO 0121104D] in "TES4TrainingSharedInfosTopic" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
     1: "Knowledge is the key to success in any endeavor."
 
-"TES4TrainingInfo10" [INFO 0121104E] in "TES4TrainingSharedInfosTopicDUPLICATE001" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
+"TES4TrainingInfo10" [INFO 0121104E] in "TES4TrainingSharedInfosTopic" [DIAL 01211044] in "TES4TrainingSharedInfo" [QUST 01211043]
     1: "Knowledge is power."
 
 [INFO 0121105E] in "TES4TrainingAcrobaticsGoodbyeTopic" [DIAL 0121105D] in "TES4TrainingAcrobatics" [QUST 0118BA2B]
@@ -62363,27 +62652,6 @@
     1: " "
 
 [INFO 01211060] in "TES4TrainingAcrobaticsGoodbyeTopic" [DIAL 0121105D] in "TES4TrainingAcrobatics" [QUST 0118BA2B]
-    1: " "
-
-[INFO 012110A2] in "TES4TrainingH2HSparringOverTopic" [DIAL 012110A1] in "TES4TrainingHandtoHand" [QUST 0118BA33]
-    1: "Not bad.... Not bad at all! Okay, you've definitely got some potential. I'll teach you what I know."
-
-[INFO 012110A3] in "TES4TrainingH2HSparringOverTopic" [DIAL 012110A1] in "TES4TrainingHandtoHand" [QUST 0118BA33]
-    1: "That was disappointing at best. I was hoping for more from you."
-
-[INFO 012110A4] in "TES4TrainingH2HSparringOverTopic" [DIAL 012110A1] in "TES4TrainingHandtoHand" [QUST 0118BA33]
-    1: "Hey! What did I tell you about weapons! That's it; we're done."
-
-[INFO 012110CE] in "TES4TrainingHandtoHandBoughtTopic" [DIAL 012110CD] in "TES4TrainingHandtoHand" [QUST 0118BA33]
-    1: " "
-
-[INFO 012110CF] in "TES4TrainingHandtoHandBoughtTopic" [DIAL 012110CD] in "TES4TrainingHandtoHand" [QUST 0118BA33]
-    1: " "
-
-[INFO 012110D0] in "TES4TrainingHandtoHandBoughtTopic" [DIAL 012110CD] in "TES4TrainingHandtoHand" [QUST 0118BA33]
-    1: " "
-
-[INFO 012110D3] in "TES4TrainingHandtoHandGoodbyeTopic" [DIAL 012110D2] in "TES4TrainingHandtoHand" [QUST 0118BA33]
     1: " "
 
 [INFO 01046654] in [DIAL 012110E8] in "TES4Arena" [QUST 0102991F]

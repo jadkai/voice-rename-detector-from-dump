@@ -303,11 +303,13 @@ namespace VoiceRenameDetectorFromDump
     {
       //Old file names do not seem to be limited, like nqdcheydinhal_cheydinhalnqdquestionresponses_0003e95c_1.
       string questEditorID = response.QuestEditorId;
-      if (limit) { questEditorID = LimitTo(questEditorID, 10); }
-      string questEditorIDAndTopicEditorID= questEditorID + "_" + response.TopicEditorId;
+      string GetQuestEditorIDAndTopicEditorID() => questEditorID + "_" + response.TopicEditorId;
+      string questEditorIDAndTopicEditorID = GetQuestEditorIDAndTopicEditorID();
+      if (limit && !(response.TopicEditorId == "" && questEditorIDAndTopicEditorID.Length <= 26)) { questEditorID = LimitTo(questEditorID, 10); }
+      questEditorIDAndTopicEditorID = GetQuestEditorIDAndTopicEditorID();
       if (limit) { questEditorIDAndTopicEditorID = LimitTo(questEditorIDAndTopicEditorID, 26); }
-      questEditorIDAndTopicEditorID = questEditorIDAndTopicEditorID.ToLower();
-      return questEditorIDAndTopicEditorID + "_" + response.InfoFormId.ToLower() + "_" + response.ResponseNumber;
+      string fileName = questEditorIDAndTopicEditorID + "_" + response.InfoFormId + "_" + response.ResponseNumber;
+      return fileName;
     }
 
     private void ExportButton_Click(object sender, EventArgs e)
@@ -327,12 +329,14 @@ namespace VoiceRenameDetectorFromDump
       {
         MessageBox.Show("Some new paths were non-distinct:\r\n" + string.Join("\r\n", nonDistinctNew.Select(g => g.Key + ": " + string.Join(", ", g.Select(t => t.Item3)))));
       }*/
-      var distinctNew = responseTuples.DistinctBy(t=>t.Item4).ToArray();
+      var distinctNew = responseTuples.DistinctBy(t => t.Item4).ToArray();
       string output = string.Join("\r\n\r\n", distinctNew.Select(t =>
       {
         return t.Item3 + "\r\n" + t.Item4;
       }));
       File.WriteAllText("VoiceRenameDetectorOutput.txt", output);
+      var shared = string.Join("\r\n\r\n", distinctNew.GroupBy(t => t.Item3).Where(g => g.Count() > 1).Select(g => g.Key + "\r\n" + string.Join("\r\n", g.Select(t => t.Item4))));
+      File.WriteAllText("VoiceRenameDetectorOutputShared.txt", shared);
     }
   }
 }
