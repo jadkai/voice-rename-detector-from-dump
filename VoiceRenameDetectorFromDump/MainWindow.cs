@@ -305,7 +305,7 @@ namespace VoiceRenameDetectorFromDump
       string questEditorID = response.QuestEditorId;
       string GetQuestEditorIDAndTopicEditorID() => questEditorID + "_" + response.TopicEditorId;
       string questEditorIDAndTopicEditorID = GetQuestEditorIDAndTopicEditorID();
-      if (limit && !(response.TopicEditorId == "" && questEditorIDAndTopicEditorID.Length <= 26)) { questEditorID = LimitTo(questEditorID, 10); }
+      if (limit && questEditorIDAndTopicEditorID.Length >= 27) { questEditorID = LimitTo(questEditorID, 10); }
       questEditorIDAndTopicEditorID = GetQuestEditorIDAndTopicEditorID();
       if (limit) { questEditorIDAndTopicEditorID = LimitTo(questEditorIDAndTopicEditorID, 26); }
       string fileName = questEditorIDAndTopicEditorID + "_" + response.InfoFormId + "_" + response.ResponseNumber;
@@ -314,8 +314,10 @@ namespace VoiceRenameDetectorFromDump
 
     private void ExportButton_Click(object sender, EventArgs e)
     {
-      var responseTuples = listView1.Items.Cast<ListViewItem>()
+      var responsePairs = listView1.Items.Cast<ListViewItem>()
         .Select(lvi => (Tuple<Response?, Response?>)lvi.Tag!)
+        .ToArray();
+      var responseTuples = responsePairs
         .Where(t => t.Item1 != null && t.Item2 != null)
         .Select(t => new Tuple<Response, Response, string, string>(t.Item1!, t.Item2!, GetFileName(t.Item1!, false), GetFileName(t.Item2!, true)))
         .ToArray();
@@ -335,8 +337,10 @@ namespace VoiceRenameDetectorFromDump
         return t.Item3 + "\r\n" + t.Item4;
       }));
       File.WriteAllText("VoiceRenameDetectorOutput.txt", output);
-      var shared = string.Join("\r\n\r\n", distinctNew.GroupBy(t => t.Item3).Where(g => g.Count() > 1).Select(g => g.Key + "\r\n" + string.Join("\r\n", g.Select(t => t.Item4))));
+      string shared = string.Join("\r\n\r\n", distinctNew.GroupBy(t => t.Item3).Where(g => g.Count() > 1).Select(g => g.Key + "\r\n" + string.Join("\r\n", g.Select(t => t.Item4))));
       File.WriteAllText("VoiceRenameDetectorOutputShared.txt", shared);
+      string unmatched = string.Join("\r\n", responsePairs.Where(p => p.Item1 == null).Select(p => p.Item2).Select(r => $"""[INFO {r.InfoFormId}] in "{r.TopicEditorId}" in "{r.QuestEditorId}" #{r.ResponseNumber}: {r.ResponseText}"""));
+      File.WriteAllText("VoiceRenameDetectorOutputUnmatched.txt", unmatched);
     }
   }
 }

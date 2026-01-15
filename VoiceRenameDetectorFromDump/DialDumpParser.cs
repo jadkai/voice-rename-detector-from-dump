@@ -99,13 +99,13 @@ namespace VoiceRenameDetectorFromDump
               ResponseNumber = responseNumber,
               InfoFormId = infoFormId,
               QuestEditorId = questEditorId,
-              ResponseText = responseText,
+              ResponseText = responseText.Trim(),
               TopicEditorId = topicEditorId,
             };
           })
           .ToList(); // going to enumerate more than once
 
-        if (!responses.Any())
+        if (responses.Count == 0)
         {
           throw new Exception($"Found empty INFO: {infoFormId}");
         }

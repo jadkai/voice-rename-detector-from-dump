@@ -155,7 +155,11 @@ namespace VoiceRenameDetectorFromDump
           // There's at least one response from the second file that has the
           // same text as the response from the first file.
 
-          if (secondResponses.Count == 1)
+          if (secondResponses.Count == 1 &&
+              !mergedFile.EqualResponses.Any(x => x.Item1 == secondResponses[0]|| x.Item2 == secondResponses[0]))
+              //The above ensures response hasn't already been matched. These two were previously being matched:
+              //DLCBattlehornCastle_GREETING_0000CA29_1 (Robert says these aren't in Skyblivion.esm.)
+              //TES4MS49_TES4MS49DukeDeadN_00091C59_3
           {
             // There is exactly one response from the second file that has the
             // same text as the response from the first file. That's a match.
